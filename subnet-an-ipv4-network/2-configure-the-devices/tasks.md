@@ -1,4 +1,3 @@
-
 # Step 1: Configure CustomerRouter
 ## a. Set the enable secret password on CustomerRouter to *Class123*
 ## b. Set the console login password to *Cisco123*.
