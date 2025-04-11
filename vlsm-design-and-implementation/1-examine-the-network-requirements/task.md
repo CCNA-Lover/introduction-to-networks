@@ -1,5 +1,5 @@
 ## Step 1: Determine the number of subnets needed.<br>
-**Note: All italic expressions are to be determined.** <br>
+**Note: All italic expressions are to be determined.** <br><br>
 You will subnet the network address *address*. The network has the following requirements:
 - *LAN 1* will require *number* of IP addresses
 - *LAN 2* will require *number* of IP addresses
