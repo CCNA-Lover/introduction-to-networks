@@ -8,4 +8,12 @@ You will subnet the network address *address*. The network has the following req
 
 ## Step 2: Determine the subnet mask information for each subnet.
 a. Which subnet mask will accommodate the number of IP addresses required for *LAN 1*? <br>
-How many usable host addresses will this subnet support? Type your answers here. b. Which subnet mask will accommodate the number of IP addresses required for    How many usable host addresses will this subnet support?  Type your answers here. c. Which subnet mask will accommodate the number of IP addresses required for    How many usable host addresses will this subnet support?  Type your answers here. d. Which subnet mask will accommodate the number of IP addresses required for    How many usable host addresses will this subnet support? Type your answers here. ? ? ? ? e. Which subnet mask will accommodate the number of IP addresses required for the connection between  and    ? 
+How many usable host addresses will this subnet support?<br><br>
+b. Which subnet mask will accommodate the number of IP addresses required for *LAN 2*? <br>
+How many usable host addresses will this subnet support?<br><br>
+c. Which subnet mask will accommodate the number of IP addresses required for *LAN 3*? <br>
+How many usable host addresses will this subnet support?<br><br>
+d. Which subnet mask will accommodate the number of IP addresses required for *LAN 4*? <br>
+How many usable host addresses will this subnet support?<br><br>
+e. Which subnet mask will accommodate the number of IP addresses required for the connection between *LAN 1* and *LAN 2*?<br>
+
