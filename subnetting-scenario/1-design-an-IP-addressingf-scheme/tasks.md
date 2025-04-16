@@ -5,3 +5,6 @@ c. How many subnets does this create?<br><br>
 d. How many usable hosts does this create per subnet?<br><br>
 **Note**: If your answer is less than the 25 hosts required, then you borrowed too many bits.<br>
 e. Calculate the binary value for the first five subnets. The first two subnets have been done for you.
+| Subnet | Network Address | Bit 7 | Bit 6 | Bit 5 | Bit 4 | Bit 3 | Bit 2 | Bit 1 | Bit 0 |
+|:------:|:--------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| 0      | 192.168.100.   | 0     | 0     | 0     | 0     | 0     | 0     | 0     | 0     |
