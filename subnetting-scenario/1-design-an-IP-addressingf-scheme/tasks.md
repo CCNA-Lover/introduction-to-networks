@@ -55,3 +55,4 @@ f. Calculate the binary and decimal value of the new subnet mask.
     <td colspan="8"></td>
   </tr>
 </table>
+g.
