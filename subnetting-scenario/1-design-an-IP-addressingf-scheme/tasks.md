@@ -4,4 +4,4 @@ b. How many bits must be borrowed to support the number of subnets in the topolo
 c. How many subnets does this create?<br><br>
 d. How many usable hosts does this create per subnet?<br><br>
 **Note**: If your answer is less than the 25 hosts required, then you borrowed too many bits.<br>
-e. Calculate the binary value for the first five subnets.The first two subnets have been done for you.
+e. Calculate the binary value for the first five subnets. The first two subnets have been done for you.
