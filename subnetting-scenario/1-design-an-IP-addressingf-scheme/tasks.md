@@ -67,3 +67,22 @@ g. Fill in the **Subnet Table**, listing the decimal value of all available subn
   | 3      |    |      |      |      | 
   | 4      |    |      |      |      |
   | 5     |    |      |      |      |
+  | 6     |    |      |      |      |
+  | 7     |    |      |      |      |
+  | 8     |    |      |      |      |
+  | 9     |    |      |      |      |
+  | 10     |    |      |      |      |
+
+## Step 2: Assign the subnets to the network shown in the topology.
+a. Assign Subnet 0 to the LAN connected to the GigabitEthernet 0/0 interface of R1:<br>
+b. Assign Subnet 1 to the LAN connected to the GigabitEthernet 0/1 interface of R1:<br>
+c. Assign Subnet 2 to the LAN connected to the GigabitEthernet 0/0 interface of R2:<br>
+d. Assign Subnet 3 to the LAN connected to the GigabitEthernet 0/1 interface of R2:<br>
+e. Assign Subnet 4 to the WAN link between R1 to R2:
+
+## Step 3: Document the addressing scheme.
+Fill in the **Addressing Table** using the following guidelines:<br>
+a. Assign the first usable IP addresses in each subnet to R1 for the two LAN links and the WAN link.<br>
+b. Assign the first usable IP addresses in each subnet to R2 for the LAN links. Assign the last usable IP address for the WAN link.<br>
+c. Assign the second usable IP address in the attached subnets to the switches.<br>
+d. Assign the last usable IP addresses to the PCs in each subnet.  
