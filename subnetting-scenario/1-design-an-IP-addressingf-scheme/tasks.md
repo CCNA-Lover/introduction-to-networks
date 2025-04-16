@@ -15,10 +15,8 @@ e. Calculate the binary value for the first five subnets. The first two subnets 
 
 f. Calculate the binary and decimal value of the new subnet mask.
 
-| First Octet | Second Octet |Third Octet | Mask Bit 7 |Mask Bit ´6 |Mask Bit 5|Mask Bit 4 |Mask Bit 3 |Mask Bit 2|Mask Bit 1 |Mask Bit 0 |
-|:------:|:--------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| 0      | 192.168.100.   | 0     | 0     | 0     | 0     | 0     | 0     | 0     | 0     |
-| 1      | 192.168.100.   | 0     | 0     | 1     | 0     | 0     | 0     | 0     | 0     |
-| 2      | 192.168.100.   | 0     | 0     | 0     | 0     | 0     | 0     | 0     | 0     |
-| 3      | 192.168.100.   | 0     | 0     | 0     | 0     | 0     | 0     | 0     | 0     |
-| 4      | 192.168.100.   | 0     | 0     | 0     | 0     | 0     | 0     | 0     | 0     |
+| First Octet | Second Octet | Third Octet | Mask Bit 7 | Mask Bit 6 | Mask Bit 5 | Mask Bit 4 | Mask Bit 3 | Mask Bit 2 | Mask Bit 1 | Mask Bit 0 |
+|:------:|:--------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:---:|
+| 11111111      |11111111   |      |      |      |      |      |      |      |      |
+| First Decimal Octet   |Second Decimal Octet   |Third Decimal Octet| Fourth Decimal Octet|
+| 255.      | 255.   |255.  | |
