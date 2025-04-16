@@ -15,8 +15,43 @@ e. Calculate the binary value for the first five subnets. The first two subnets 
 
 f. Calculate the binary and decimal value of the new subnet mask.
 
-| First Octet | Second Octet | Third Octet | Mask Bit 7 | Mask Bit 6 | Mask Bit 5 | Mask Bit 4 | Mask Bit 3 | Mask Bit 2 | Mask Bit 1 | Mask Bit 0 |
-|:------:|:--------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:---:|
-| 11111111      |11111111   |      |      |      |      |      |      |      |      |
-| First Decimal Octet   |Second Decimal Octet   |Third Decimal Octet| Fourth Decimal Octet|
-| 255.      | 255.   |255.  | |
+<table border="1" cellpadding="5" cellspacing="0">
+  <tr>
+    <td align="center">First Octet</td>
+    <td align="center">Second Octet</td>
+    <td align="center">Third Octet</td>
+    <td align="center">Mask Bit 7</td>
+    <td align="center">Mask Bit 6</td>
+    <td align="center">Mask Bit 5</td>
+    <td align="center">Mask Bit 4</td>
+    <td align="center">Mask Bit 3</td>
+    <td align="center">Mask Bit 2</td>
+    <td align="center">Mask Bit 1</td>
+    <td align="center">Mask Bit 0</td>
+  </tr>
+  <tr>
+    <td align="center">11111111</td>
+    <td align="center">11111111</td>
+    <td align="center">11111111</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center">First Decimal Octet</td>
+    <td align="center">Second Decimal Octet</td>
+    <td align="center">Third Decimal Octet</td>
+    <td colspan="8" align="center" style="background-color: #e6f0ff;">Fourth Decimal Octet</td>
+  </tr>
+  <tr>
+    <td align="center">255.</td>
+    <td align="center">255.</td>
+    <td align="center">255.</td>
+    <td colspan="8"></td>
+  </tr>
+</table>
