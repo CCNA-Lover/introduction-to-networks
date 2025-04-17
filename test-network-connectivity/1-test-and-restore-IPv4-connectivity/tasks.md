@@ -1,4 +1,9 @@
 ## Step 1: Use ipconfig and ping to verify connectivity.
+a. Click **PC1** and open the **Command Prompt**.<br><br>
+b. Enter the **ipconfig /all** command to collect the IPv4 information. Complete the **Addressing Table** with the IPv4 address, subnet mask, and default gateway.<br><br>
+c. Click **PC3** and open the **Command Prompt**.<br><br>
+d. Enter the **ipconfig /all** command to collect the IPv4 information. Complete the **Addressing Table** with the IPv4 address, subnet mask, and default gateway.<br><br>
+e. Use the **ping** command to test connectivity between **PC1** and **PC3**. The ping should fail. 
 ## Step 2: Locate the source of connectivity failure.
 a. From **PC1**, enter the necessary command to trace the route to **PC3**.<br><br>
 What is the last successful IPv4 address that was reached?<br><br>
