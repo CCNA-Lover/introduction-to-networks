@@ -18,19 +18,19 @@ The network that you are tasked to subnet is 192.168.0.0/24. What is the /24 sub
 1. (/25) 11111111.11111111.11111111.10000000<br>
 Dotted decimal subnet mask equivalent:<br><br>
 Number of subnets? Number of hosts?<br><br>
-1. (/26) 11111111.11111111.11111111.10000000<br>
+2. (/26) 11111111.11111111.11111111.11000000<br>
 Dotted decimal subnet mask equivalent:<br><br>
 Number of subnets? Number of hosts?<br><br>
-1. (/27) 11111111.11111111.11111111.10000000<br>
+3. (/27) 11111111.11111111.11111111.11100000<br>
 Dotted decimal subnet mask equivalent:<br><br>
 Number of subnets? Number of hosts?<br><br>
-1. (/28) 11111111.11111111.11111111.10000000<br>
+4. (/28) 11111111.11111111.11111111.11110000<br>
 Dotted decimal subnet mask equivalent:<br><br>
 Number of subnets? Number of hosts?<br><br>
-1. (/29) 11111111.11111111.11111111.10000000<br>
+5. (/29) 11111111.11111111.11111111.11111000<br>
 Dotted decimal subnet mask equivalent:<br><br>
 Number of subnets? Number of hosts?<br><br>
-1. (/30) 11111111.11111111.11111111.10000000<br>
+6. (/30) 11111111.11111111.11111111.11111100<br>
 Dotted decimal subnet mask equivalent:<br><br>
 Number of subnets? Number of hosts?<br><br>
 Considering your answers above, which subnet masks meet the required number of minimum host addresses?<br><br>
@@ -40,7 +40,6 @@ When you have determined which subnet mask meets all of the stated network requi
 
 | Subnet Address | Prefix | Subnet Mask |
 |----------------|--------|-------------|
-|                |        |             |
 |                |        |             |
 |                |        |             |
 |                |        |             |
