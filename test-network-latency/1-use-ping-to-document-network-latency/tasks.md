@@ -2,7 +2,7 @@
 Ping the following Regional Internet Registry (RIR) websites to verify connectivity:<br>
 ```C:\Users\User1> ping www.lacnic.net```<br>
 ```C:\Users\User1> ping www.afrinic.net```<br>
-```C:\Users\User1> ping www.apnic.net```
+```C:\Users\User1> ping www.apnic.net```<br><br>
 **Note**: Because www.ripe.net and www.arin.net do not reply to ICMP requests, they cannot be used for this lab.<br>
 If the websites are resolved to IPv6 addresses, the option -4 can be used to resolve to IPv4 addresses if desired. The command becomes **ping -4 www.apnic.net**. 
 ## Step 2: Collect network data.
