@@ -9,7 +9,7 @@ If the websites are resolved to IPv6 addresses, the option -4 can be used to res
 You will collect a sufficient amount of data to compute statistics on the **ping** output by sending out 25 echo requests to each address listed in Step 1. This step may require administrative privileges, depending upon your operating system. Record the results for each website to text files.<br><br>
 a. At the command prompt, type **ping** to list the available options.
 ```C:\Users\User1> ping```<br><br>
-b. Using the **ping** command with the count option, you can send 25 echo requests to the destination as illustrated below. Furthermore, it will create a text file with filename of **lacnic.txt** in the current directory. This text file will contain the results of the echo requests.
+b. Using the **ping** command with the count option, you can send 25 echo requests to the destination as illustrated below. Furthermore, it will create a text file with filename of **lacnic.txt** in the current directory. This text file will contain the results of the echo requests.<br>
 ```C:\Users\User1> ping –n 25 www.lacnic.net > lacnic.txt ```<br><br>
 **Note**: The terminal remains blank until the command has finished, because the output has been redirected to a text file, **lacnic.txt**, in this example. The **>** symbol is used to redirect the screen output to the file and overwrite the file if it already exists. If appending more results to the file is desired, replace **>** with **>>** in the command.<br><br>
 c. Repeat the **ping** command for the other websites.<br>
