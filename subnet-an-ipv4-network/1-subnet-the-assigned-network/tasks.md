@@ -55,6 +55,7 @@ b. Assign the second subnet to LAN-B.
 1. Use the first host address for the CustomerRouter interface connected to LAN-B switch.
 2. Use the second host address for the LAN-B switch. Make sure to assign a default gateway address for the switch.
 3. Use the last host address for PC-B. Make sure to assign a default gateway address for the PC.
+4. 
 | Device | Interface | IP Address | Subnet Mask | Default Gateway |
 |--------|-----------|------------|-------------|-----------------|
 | CustomerRouter | G0/0 | | | N/A |
