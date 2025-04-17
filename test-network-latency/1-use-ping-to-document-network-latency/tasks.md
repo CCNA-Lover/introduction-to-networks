@@ -24,8 +24,8 @@ To see the results in the file created, use the **more** command at the command 
 Record your results in the following table.
 ||Minimum|Maximum|Average|
 |:---:|:---:|:---:|:---:|
-|www.afrinic\.net||||
-|www.apnic\.net||||
-|www.lacninc\.net||||
+|`www.afrinic.net`||||
+|`www.apnic.net`||||
+|`www.lacninc.net`||||
 
 Compare the delay results. How is delay affected by geographical location?
