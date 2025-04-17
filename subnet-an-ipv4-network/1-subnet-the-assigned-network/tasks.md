@@ -42,6 +42,7 @@ When you have determined which subnet mask meets all of the stated network requi
 ||||
 ||||
 ||||
+
 ## Step 2: Fill in the missing IP addresses in the Addressing Table.
 Assign IP addresses based on the following criteria: Use the ISP Network settings as an example.<br><br>
 a. Assign the forst subnet to LAN-A.
