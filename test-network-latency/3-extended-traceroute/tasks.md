@@ -1,4 +1,5 @@
 Although **traceroute** has different implementations depending on the platform, all versions allow the user to adjust its behavior. In Windows, this can be done providing options and switches in the tracert command line.<br><br>
+## Instructions
 a. Reverse name resolution (resolving an IP address to a domain name) can add a delay to **tracert** results and yield inaccurate results. To ensure **tracert** won’t attempt to reverse resolve hop IP addresses, add the **–d** option to the **tracert** command line:<br>
 `C:\Users\User1> tracert –d www.lacnic.net > traceroute_d_lacnic.txt`<br>
 `C:\Users\User1> tracert –d www.afrinic.net > traceroute_d_afrinic.txt`<br>
