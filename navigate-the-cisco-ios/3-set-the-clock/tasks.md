@@ -17,7 +17,9 @@ e. Based on the information requested by issuing the **clock set ?** command, en
 The output returns a request for more information:<br>
 `<1-31> Day of the month`<br>
 `MONTH Month of the year`<br><br>
-f. Attempt to set the date to 01/31/2035 using the format requested. It may be necessary to request additional help using context-sensitive help to complete the process. When finished, issue the **show clock** command to display the clock setting.<br><br>
+f. Attempt to set the date to 01/31/2035 using the format requested. It may be necessary to request additional help using context-sensitive help to complete the process. When finished, issue the **show clock** command to display the clock setting. The resulting command output should display as:<br>
+`S1# show clock`<br>
+`*15:0:4.869 UTC Tue Jan 31 2035`<br><br>
 g. If you were not successful, try te following command to obtain the output above:<br>
 `S1# clock setr 15:00:00 31 Jan 2035`
 ## Step 2:
