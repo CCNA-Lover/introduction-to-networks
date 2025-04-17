@@ -15,4 +15,17 @@ b. Using the **ping** command with the count option, you can send 25 echo reques
 c. Repeat the **ping** command for the other websites.<br>
 ```C:\Users\User1> ping –n 25 www.afrinic.net > afrinic.txt```<br>
 ```C:\Users\User1> ping –n 25 www.apnic.net > apnic.txt```
-## Step 3:
+## Step 3: Verify data collection.
+To verify that the files have been created, use the **dir** command to list the files in the directory. Also the wildcard * can be used to filter only the text files.<br>
+```C:\Users\User1> dir *.txt```<br><br>
+To see the results in the file created, use the **more** command at the command prompt.<br>
+```C:\Users\User1> more lacnic.txt``` <br><br>
+**Note**:  Press the Spacebar to display the rest of the file or press **q** to exit.<br>
+Record your results in the following table.
+||Minimum|Maximum|Average|
+|:---:|:---:|:---:|:---:|
+|www.afrinic.net||||
+|www.apnic.net||||
+|www.lacninc.net||||
+
+Compare the delay results. How is delay affected ny geographical location?
