@@ -14,7 +14,7 @@ A verification plan can be as simple as a list of connectivity tests. Use the fo
 **Note**: The table is an example; you must create your own document. You can use paper and pencil to draw a table, or you can use a text editor or spreadsheet. Consult your instructor if you need further guidance.<br><br>
 c. Test connectivity to remote devices (such as from PC1 to PC4) and document any problems. This is frequently referred to as end-to-end connectivity. This means that all devices in a network have the full connectivity allowed by the network policy.<br><br>
 **Note**: Remote connectivity testing may not be possible yet, because you must first resolve local connectivity issues. After you have solved those issues, return to this step and test connectivity between networks.
-## Determine an appropriate solution for the problem.
+## Step2: Determine an appropriate solution for the problem.
 a. Using your knowledge of the way networks operate and your device configuration skills, search for the cause of the problem. For example, S1 is not the cause of the connectivity issue between PC1 and PC2. The link lights are green and no configuration on S1 would cause traffic to not pass between PC1 and PC2. So the problem must be with PC1, PC2, or both.<br><br>
 b. Verify the device addressing to ensure it matches the network documentation. For example, the IP address for PC1 is incorrect as verified with the **ipconfig** command.<br><br>
 c. Suggest a solution that you think will resolve the problem and document it. For example, change the IP address for PC1 to match the documentation.<br><br>
