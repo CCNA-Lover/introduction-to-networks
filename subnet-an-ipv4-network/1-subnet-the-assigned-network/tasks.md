@@ -15,22 +15,22 @@ f. To subnet a network, bits from the host portion of the original network mask 
 Given each of the possible subnet masks depicted in the following binary format, how many subnets and how many hosts are created in each example?<br><br>
 **Hint**: Remember that the number of host bits (to the power of 2) defines the number of hosts per subnet (minus 2), and the number of subnet bits (to the power of two) defines the number of subnets. The subnet bits (shown in bold) are the bits that have been borrowed beyond the original network mask of /24. The /24 is the prefix notation and corresponds to a dotted decimal mask of 255.255.255.0.<br><br>
 The network that you are tasked to subnet is 192.168.0.0/24. What is the /24 subnet mask in binary?<br><br>
-1. (/25) 11111111.11111111.11111111.10000000<br>
+1. (/25) 11111111.11111111.11111111.**1**0000000<br>
 Dotted decimal subnet mask equivalent:<br><br>
 Number of subnets? Number of hosts?<br><br>
-2. (/26) 11111111.11111111.11111111.11000000<br>
+2. (/26) 11111111.11111111.11111111.**11**000000<br>
 Dotted decimal subnet mask equivalent:<br><br>
 Number of subnets? Number of hosts?<br><br>
-3. (/27) 11111111.11111111.11111111.11100000<br>
+3. (/27) 11111111.11111111.11111111.**111**00000<br>
 Dotted decimal subnet mask equivalent:<br><br>
 Number of subnets? Number of hosts?<br><br>
-4. (/28) 11111111.11111111.11111111.11110000<br>
+4. (/28) 11111111.11111111.11111111.**1111**0000<br>
 Dotted decimal subnet mask equivalent:<br><br>
 Number of subnets? Number of hosts?<br><br>
-5. (/29) 11111111.11111111.11111111.11111000<br>
+5. (/29) 11111111.11111111.11111111.**11111**000<br>
 Dotted decimal subnet mask equivalent:<br><br>
 Number of subnets? Number of hosts?<br><br>
-6. (/30) 11111111.11111111.11111111.11111100<br>
+6. (/30) 11111111.11111111.11111111.**111111**00<br>
 Dotted decimal subnet mask equivalent:<br><br>
 Number of subnets? Number of hosts?<br><br>
 Considering your answers above, which subnet masks meet the required number of minimum host addresses?<br><br>
@@ -55,4 +55,17 @@ b. Assign the second subnet to LAN-B.
 1. Use the first host address for the CustomerRouter interface connected to LAN-B switch.
 2. Use the second host address for the LAN-B switch. Make sure to assign a default gateway address for the switch.
 3. Use the last host address for PC-B. Make sure to assign a default gateway address for the PC.
-
+| Device | Interface | IP Address | Subnet Mask | Default Gateway |
+|--------|-----------|------------|-------------|-----------------|
+| CustomerRouter | G0/0 | | | N/A |
+| | G0/1 | | | |
+| | S0/1/0 | 209.165.201.2 | 255.255.255.252 | |
+| LAN-A Switch | VLAN1 | | | |
+| LAN-B Switch | VLAN1 | | | |
+| PC-A | NIC | | | |
+| PC-B | NIC | | | |
+| ISPRouter | G0/0 | 209.165.200.225 | 255.255.255.224 | N/A |
+| | S0/1/0 | 209.165.201.1 | 255.255.255.252 | |
+| ISPSwitch | VLAN1 | 209.165.200.226 | 255.255.255.224 | 209.165.200.225 |
+| ISP Workstation | NIC | 209.165.200.235 | 255.255.255.224 | 209.165.200.225 |
+| ISP Server | NIC | 209.165.200.240 | 255.255.255.224 | 209.165.200.225 |
