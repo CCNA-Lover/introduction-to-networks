@@ -34,7 +34,7 @@ Number of subnets? Number of hosts?<br><br>
 Dotted decimal subnet mask equivalent:<br><br>
 Number of subnets? Number of hosts?<br><br>
 Considering your answers above, which subnet masks meet the required number of minimum host addresses?<br><br>
-Considerinf your answers above, which subnet masks meet the minimum number of subnets required?<br><br>
+Considering your answers above, which subnet masks meet the minimum number of subnets required?<br><br>
 Considering your answers above, which subnet mask meets both the required minimum number od hosts and the minimum number of subnets required?<br><br>
 When you have determined which subnet mask meets all of the stated network requirements, derive each of the subnets. List the subnets from first to last in the table. Remember that the first subnet is 192.168.0.0 with the chosen subnet mask.
 
@@ -55,7 +55,7 @@ b. Assign the second subnet to LAN-B.
 1. Use the first host address for the CustomerRouter interface connected to LAN-B switch.
 2. Use the second host address for the LAN-B switch. Make sure to assign a default gateway address for the switch.
 3. Use the last host address for PC-B. Make sure to assign a default gateway address for the PC.
-4. 
+
 | Device | Interface | IP Address | Subnet Mask | Default Gateway |
 |--------|-----------|------------|-------------|-----------------|
 | CustomerRouter | G0/0 | | | N/A |
