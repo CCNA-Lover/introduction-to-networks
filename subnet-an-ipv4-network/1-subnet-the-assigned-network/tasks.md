@@ -11,7 +11,7 @@ The network that you are tasked to subnet is 192.168.0.0/24. What is the /24 sub
 
 ## Step 2: Fill in the missing IP addresses in the Addressing Table.
 Assign IP addresses based on the following criteria: Use the ISP Network settings as an example.<br><br>
-a. Assign the forst subnet to LAN-A.<br>
+a. Assign the forst subnet to LAN-A.
 1. Use the first host address for the CustomerRouter interface connected to LAN-A switch.
 2. Use the second host address for the LAN-A switch. Make sure to assign a default gateway address for the switch.
 3. Use the last host address for PC-A. Make sure to assign a default gateway address for the PC.
