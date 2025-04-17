@@ -21,5 +21,15 @@ f. Attempt to set the date to 01/31/2035 using the format requested. It may be n
 `S1# show clock`<br>
 `*15:0:4.869 UTC Tue Jan 31 2035`<br><br>
 g. If you were not successful, try te following command to obtain the output above:<br>
-`S1# clock setr 15:00:00 31 Jan 2035`
-## Step 2:
+`S1# clock set 15:00:00 31 Jan 2035`
+## Step 2: Explore additional command messages.
+a. The IOS provides various outputs for incorrect or incomplete commands. Continue to use the **clock** command to explore additional messages that may be encountered as you learn to use the IOS.<br><br>
+b. Issue the following commands and record the messages:<br>
+`S1# cl<tab>`<br>
+What information was returned?<br><br>
+`S1# clock`<br>
+What information was returned?<br><br>
+`S1# clock set 25:00:00`<br>
+What information was returned?<br><br>
+`S1# clock set 15:00:00 32`<br>
+What information was returned? 
