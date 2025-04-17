@@ -37,12 +37,12 @@ Considering your answers above, which subnet masks meet the required number of m
 Considerinf your answers above, which subnet masks meet the minimum number of subnets required?<br><br>
 Considering your answers above, which subnet mask meets both the required minimum number od hosts and the minimum number of subnets required?<br><br>
 When you have determined which subnet mask meets all of the stated network requirements, derive each of the subnets. List the subnets from first to last in the table. Remember that the first subnet is 192.168.0.0 with the chosen subnet mask.
+
 |Subnet Address|Prefix|Sunet Mask|
 |:---:|:---:|:---:|
 ||||
 ||||
 ||||
-
 ## Step 2: Fill in the missing IP addresses in the Addressing Table.
 Assign IP addresses based on the following criteria: Use the ISP Network settings as an example.<br><br>
 a. Assign the forst subnet to LAN-A.
