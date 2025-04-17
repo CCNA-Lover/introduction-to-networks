@@ -6,7 +6,7 @@ d. Enter the **ipv6config /all** command to collect the IPv6 information. Comple
 e. Test connectivity between **PC2** and **PC4**. The ping should fail.
 ## Step 2: Locate the source of connectivity failure.
 a. From **PC2**, enter the necessary command to trace the route to **PC4**.<br><br>
-What is the last successful IPv4 address that was reached?<br><br>
+What is the last successful IPv6 address that was reached?<br><br>
 b. The trace will eventually end after 30 attempts. Enter **Ctrl+C** to stop the trace before 30 attempts.<br><br>
 c. From **PC4**, enter the necessary command to trace the route to **PC2**.<br><br>
 What is the last successful IPv6 address that was reached?<br><br>
