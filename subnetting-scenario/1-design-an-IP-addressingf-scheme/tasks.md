@@ -57,7 +57,7 @@ f. Calculate the binary and decimal value of the new subnet mask.
 </table>
 
 g. Fill in the **Subnet Table**, listing the decimal value of all available subnets, the first and last usable host address, and the broadcast address. Repeat until all addresses are listed.<br>
-**Note**: You may not need to use all rows.
+**Note**: You may not need to use all rows.<br>
 **Subnet Table**
 | Subnet Number| Subnet Address| First Usable Host Address | Last Usable Address | Broadcast Address |
   |:------:|:--------------:|:-----:|:-----:|:-----:|
