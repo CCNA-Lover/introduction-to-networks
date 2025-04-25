@@ -13,7 +13,7 @@
 ### Given:
 |Network Properties|Value|
 |:---|:---|
-|Host IP Address|192.168.200.139 |
+|Host IP Address|192.168.200.139|
 |Original Subnet Mask|255.255.255.0 |
 |New Subnet Mask|255.255.255.224|
 
@@ -28,6 +28,11 @@
 |IPv4 Address of First Host on this Subnet|192.168.200.129|
 |IPv4 Address of Last Host on this Subnet|192.168.200.158|
 |IPv4 Broadcast Address on this Subnet|192.168.200.159|
+
+**Explanation:**<br>
+192.168.200.139 is a class **C** address with the original prefix of **/24**.<br>
+The decimal number in the fourth octet of the new subnet mask is 224(= 128 + 64 + 32 = 2^7 + 2^6 + 2^5), so the new prefix is **/27**, since **3 bits were borrowed**(7th, 6th and 5th) from the host portion to create new subnets.<br>
+Every bit is dual (i.e. has two possible values: *0* or *1*) so there are 2^3 = 8 subnets created
 
 ## Problem 2:
 ### Given:
