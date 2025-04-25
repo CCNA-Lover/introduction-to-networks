@@ -1,3 +1,5 @@
+## Instructions
+Fill out the tables below with the appropriate answers given the IPv4 address, original subnet mask, and new subnet mask.
 |Network Properties|Given|
 |:---:|:--:|
 |Host IP Address|192.168.200.139|
