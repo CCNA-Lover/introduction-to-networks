@@ -1,13 +1,19 @@
-**Recall: IPv4 Address Classes:**<br>
+**Recall:**<br>
 |Class|Subnet Mask|Prefix|Address Range|Additional notes|
 |:---|:---|:---|:---|:---|
-|A|255.0.0.0|/8|0.0.0.0 - 127.255.255.255|127.0.0.0 - 127.0.255.255 for loopback|
-|B|255.255.0.0|/16|128.0.0.0 - 191.255.255.255|169.254.0.0 -169.254.255.255 for APIPA*|
+|A|255.0.0.0|/8|0.0.0.0 - 127.255.255.255|127.0.0.0 - 127.0.255.255 for loopback
+10.0.0.0 - 10.255.255.255 private address|
+|B|255.255.0.0|/16|128.0.0.0 - 191.255.255.255|169.254.0.0 -169.254.255.255 for APIPA*
+172.16.0.0 - 172.31.255.255 private address
+192.168.0.0 - 192.168.255.255 private address|
 |C|255.255.255.0|/24|192.0.0.0 - 223.255.255.255||
 |D|N/A|N/A|224.0.0.0 - 240.255.255.255|Experimental|
 |E|N/A|N/A|240.0.0.0 - 255.255.255.255|Reserved|
+|Private Address|255.0.0.0|/8|10.0.0.0 - 10.||
+|Private Address|255.240.0.0|/12|||
+|Private Address|255.255.0.0|/16|||
 
-* *APIPA* will be discussed in another branch.
+* *APIPA* will be discussed in another branch.<br>
 
 ## Problem 1:
 ### Given:
