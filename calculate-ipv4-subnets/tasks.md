@@ -4,8 +4,8 @@ Fill out the tables below with the appropriate answers given the IPv4 address, o
 ### Given:
 |Network Properties|Value|
 |:---|:---|
-|Host IP Address|192.168.200.139|
-|Original Subnet Mask|255.255.255.0|
+|Host IP Address|192.168.200.139 |
+|Original Subnet Mask|255.255.255.0 |
 |New Subnet Mask|255.255.255.224|
 
 ### Find:
@@ -20,3 +20,105 @@ Fill out the tables below with the appropriate answers given the IPv4 address, o
 |IPv4 Address of Last Host on this Subnet||
 |IPv4 Broadcast Address on this Subnet||
 
+## Problem 1:
+### Given:
+|Network Properties|Value|
+|:---|:---|
+|Host IP Address||
+|Original Subnet Mask||
+|New Subnet Mask||
+
+### Find:
+|Element|Value|
+|:---|:---|
+|Number of Subnet Bits||
+|Number of Subnets Created||
+|Number of Host Bits per Subnet||
+|Number of Hosts per Subnet||
+|Network Address of this Subnet||
+|IPv4 Address of First Host on this Subnet||
+|IPv4 Address of Last Host on this Subnet||
+|IPv4 Broadcast Address on this Subnet||
+
+## Problem 1:
+### Given:
+|Network Properties|Value|
+|:---|:---|
+|Host IP Address||
+|Original Subnet Mask||
+|New Subnet Mask||
+
+### Find:
+|Element|Value|
+|:---|:---|
+|Number of Subnet Bits||
+|Number of Subnets Created||
+|Number of Host Bits per Subnet||
+|Number of Hosts per Subnet||
+|Network Address of this Subnet||
+|IPv4 Address of First Host on this Subnet||
+|IPv4 Address of Last Host on this Subnet||
+|IPv4 Broadcast Address on this Subnet||
+
+## Problem 1:
+### Given:
+|Network Properties|Value|
+|:---|:---|
+|Host IP Address||
+|Original Subnet Mask||
+|New Subnet Mask||
+
+### Find:
+|Element|Value|
+|:---|:---|
+|Number of Subnet Bits||
+|Number of Subnets Created||
+|Number of Host Bits per Subnet||
+|Number of Hosts per Subnet||
+|Network Address of this Subnet||
+|IPv4 Address of First Host on this Subnet||
+|IPv4 Address of Last Host on this Subnet||
+|IPv4 Broadcast Address on this Subnet||
+
+## Problem 1:
+### Given:
+|Network Properties|Value|
+|:---|:---|
+|Host IP Address||
+|Original Subnet Mask||
+|New Subnet Mask||
+
+### Find:
+|Element|Value|
+|:---|:---|
+|Number of Subnet Bits||
+|Number of Subnets Created||
+|Number of Host Bits per Subnet||
+|Number of Hosts per Subnet||
+|Network Address of this Subnet||
+|IPv4 Address of First Host on this Subnet||
+|IPv4 Address of Last Host on this Subnet||
+|IPv4 Broadcast Address on this Subnet||
+
+## Problem 1:
+### Given:
+|Network Properties|Value|
+|:---|:---|
+|Host IP Address||
+|Original Subnet Mask||
+|New Subnet Mask||
+
+### Find:
+|Element|Value|
+|:---|:---|
+|Number of Subnet Bits||
+|Number of Subnets Created||
+|Number of Host Bits per Subnet||
+|Number of Hosts per Subnet||
+|Network Address of this Subnet||
+|IPv4 Address of First Host on this Subnet||
+|IPv4 Address of Last Host on this Subnet||
+|IPv4 Broadcast Address on this Subnet||
+
+# Reflection Question
+Why is the subnet mask so important when analyzing an IPv4 address?
