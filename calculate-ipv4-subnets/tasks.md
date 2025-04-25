@@ -20,13 +20,13 @@ Fill out the tables below with the appropriate answers given the IPv4 address, o
 |IPv4 Address of Last Host on this Subnet||
 |IPv4 Broadcast Address on this Subnet||
 
-## Problem 1:
+## Problem 2:
 ### Given:
 |Network Properties|Value|
 |:---|:---|
-|Host IP Address||
-|Original Subnet Mask||
-|New Subnet Mask||
+|Host IP Address|10.101.99.228|
+|Original Subnet Mask|255.0.0.0|
+|New Subnet Mask|255.255.128.0|
 
 ### Find:
 |Element|Value|
@@ -40,13 +40,13 @@ Fill out the tables below with the appropriate answers given the IPv4 address, o
 |IPv4 Address of Last Host on this Subnet||
 |IPv4 Broadcast Address on this Subnet||
 
-## Problem 1:
+## Problem 3:
 ### Given:
 |Network Properties|Value|
 |:---|:---|
-|Host IP Address||
-|Original Subnet Mask||
-|New Subnet Mask||
+|Host IP Address|172.22.32.12|
+|Original Subnet Mask|255.255.0.0|
+|New Subnet Mask|255.255.224.0|
 
 ### Find:
 |Element|Value|
@@ -60,13 +60,13 @@ Fill out the tables below with the appropriate answers given the IPv4 address, o
 |IPv4 Address of Last Host on this Subnet||
 |IPv4 Broadcast Address on this Subnet||
 
-## Problem 1:
+## Problem 4:
 ### Given:
 |Network Properties|Value|
 |:---|:---|
-|Host IP Address||
-|Original Subnet Mask||
-|New Subnet Mask||
+|Host IP Address|192.168.1.245|
+|Original Subnet Mask|255.255.255.0|
+|New Subnet Mask|255.255.255.252|
 
 ### Find:
 |Element|Value|
@@ -80,13 +80,13 @@ Fill out the tables below with the appropriate answers given the IPv4 address, o
 |IPv4 Address of Last Host on this Subnet||
 |IPv4 Broadcast Address on this Subnet||
 
-## Problem 1:
+## Problem 5:
 ### Given:
 |Network Properties|Value|
 |:---|:---|
-|Host IP Address||
-|Original Subnet Mask||
-|New Subnet Mask||
+|Host IP Address|128.107.0.55|
+|Original Subnet Mask|255.255.0.0|
+|New Subnet Mask|255.255.255.0|
 
 ### Find:
 |Element|Value|
@@ -100,13 +100,13 @@ Fill out the tables below with the appropriate answers given the IPv4 address, o
 |IPv4 Address of Last Host on this Subnet||
 |IPv4 Broadcast Address on this Subnet||
 
-## Problem 1:
+## Problem 6:
 ### Given:
 |Network Properties|Value|
 |:---|:---|
-|Host IP Address||
-|Original Subnet Mask||
-|New Subnet Mask||
+|Host IP Address|192.135.250.180|
+|Original Subnet Mask|255.255.255.0|
+|New Subnet Mask|255.255.255.248|
 
 ### Find:
 |Element|Value|
