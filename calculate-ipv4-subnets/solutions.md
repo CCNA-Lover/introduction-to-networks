@@ -141,4 +141,4 @@ The subnet mask is a variable that divides a an IPv4 address into two separate p
 1. **efficient routing** - routers forward packets based on network identification (the network portion determined by the sunet mask)
 2. **branch-specific IPv4 address allocation** - more manageable subnets are created based on the requirements of each and every nerwork (security, physical location, department, etc.)
 3. **broadcast domain control** - broadcast traffic is limited to specific network segments (portions)
-4. **route aggregation** - sunet masks facilitate route summarization (supranetting)
+4. **route aggregation** - subnet masks facilitate route summarization (supranetting)
