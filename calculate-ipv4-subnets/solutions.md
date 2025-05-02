@@ -136,3 +136,9 @@ Every bit is dual (i.e. has two possible values: *0* or *1*) so there are 2^3 = 
 
 # Reflection Question
 Why is the subnet mask so important when analyzing an IPv4 address?
+## Answer
+The subnet mask is a variable that divides a an IPv4 address into two separate parts: the network and the host portion. Advantages are:
+1. efficient routing - routers forward packets based on network identification (the network portion determined by the sunet mask)
+2. branch-specific IPv4 address allocation - more manageable subnets are created based on the requirements of each and every nerwork (security, physical location, department, etc.)
+3. broadcast domain control - broadcast traffic is limited to specific network segments (portions)
+4. route aggregation - sunet masks facilitate route summarization (supranetting)
