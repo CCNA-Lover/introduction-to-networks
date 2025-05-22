@@ -25,5 +25,5 @@ All IOS device configurations should be completed from a direct terminal connect
 ## Administration Switch: <br>
 1. Enabling basic remote management by Telnet
 2. PC and Server hosts:<br>
-a. IPv4 full addressing
+a. IPv4 full addressing<br>
 b. IPv6 addressing
