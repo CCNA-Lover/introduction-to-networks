@@ -16,14 +16,14 @@ All IOS device configurations should be completed from a direct terminal connect
 - Configuration of a switch virtual management interface<br><br>
 
 # Requirements by device:
-## Town Hall router: <br>
+## 1. Town Hall router: <br>
 - Configuration of initial router settings
 - Interface configuration and IPv4 and IPv6 addressing
 - Device security enhancement, or device hardening
 - Secure transport for remote configuration connections as covered in the labs and - Packet Tracers in the course.<br><br>
 
-## Administration Switch: <br>
-1. Enabling basic remote management by Telnet
-2. PC and Server hosts:<br>
+## 2. Administration Switch: <br>
+- Enabling basic remote management by Telnet
+- PC and Server hosts:<br>
 a. IPv4 full addressing<br>
 b. IPv6 addressing
