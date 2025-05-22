@@ -23,7 +23,7 @@ All IOS device configurations should be completed from a direct terminal connect
 - Secure transport for remote configuration connections as covered in the labs and - Packet Tracers in the course.<br><br>
 
 ## 2. Administration Switch: <br>
-\- Enabling basic remote management by Telnet
+\- Enabling basic remote management by Telnet<br>
 \- PC and Server hosts:<br>
 - IPv4 full addressing<br>
 - IPv6 addressing
