@@ -6,7 +6,7 @@ You will receive one of several topologies.<br><br>
 You are not required to configure the **IT Department Switch**, and you will not be able to access it in this practice skills assessment activity.<br><br>
 
 All IOS device configurations should be completed from a direct terminal connection to the device console. In addition, many values that are required to complete the configurations have not been given to you. In those cases, create the values that you need to complete the requirements. For values that have been supplied to you, they must be entered exactly as they appear in order for you to get full credit for your configuration.<br>
-**You will practice and be assessed on the following skills:**<br><br>
+**You will practice and be assessed on the following skills:**<br>
 
 - Configuration of initial IOS device settings
 - Design and calculation of IPv4 addressing
@@ -16,16 +16,14 @@ All IOS device configurations should be completed from a direct terminal connect
 - Configuration of a switch virtual management interface<br><br>
 
 # Requirements by device:
-**Town Hall router:** <br><br>
-
+## Town Hall router: <br>
 - Configuration of initial router settings
 - Interface configuration and IPv4 and IPv6 addressing
 - Device security enhancement, or device hardening
 - Secure transport for remote configuration connections as covered in the labs and - Packet Tracers in the course.<br><br>
 
-**Administration Switch:** <br>
+## Administration Switch: <br>
 1. Enabling basic remote management by Telnet
-2. PC and Server hosts:<br><br>
-
+2. PC and Server hosts:<br>
 - IPv4 full addressing
 - IPv6 addressing
