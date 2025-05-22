@@ -27,3 +27,5 @@ All IOS device configurations should be completed from a direct terminal connect
 \- PC and Server hosts:
 - IPv4 full addressing
 - IPv6 addressing
+![image](https://github.com/user-attachments/assets/7c3ae0d2-30bd-46c5-8264-52cd470a4f6d)
+
