@@ -25,6 +25,7 @@ a. Configure the **Town Hall** router with all initial configurations that you h
 - Prevent all passwords from being viewed in clear text in device configuration files.
 - Configure the router to only accept in-band management connections over the protocol that is more secure than Telnet, as was done in the labs and PT activities. Use the value **1024** for encryption key strength.
 - Configure local user authentication for in-band management connections. Create a user with the name **netadmin** and a secret password of **Cisco_CCNA7**.
+
 b. Configure the two Gigabit Ethernet interfaces using the IPv4 addressing values that you calculated and the IPv6 values provided in the addressing table.
 
 - Reconfigure the link local addresses to the value shown in the table.
