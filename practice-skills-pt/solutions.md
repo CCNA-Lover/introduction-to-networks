@@ -1,12 +1,98 @@
 # Step 1: Determine the IP Addressing Scheme.
 
-| Device               | Interface | IP Address/Mask                                                                 | Default Gateway |
-|----------------------|-----------|----------------------------------------------------------------------------------|------------------|
-| Town Hall            | G0/0      | 192.168.1.126/27<br>(SM: 255.255.255.224)<br>2001:db8:acad:a::1/64<br>fe80::1   | N/A              |
-|                      | G0/1      | 192.168.1.158/28<br>(SM: 255.255.255.240)<br>2001:db8:acad:b::1/64<br>fe80::1   | N/A              |
-| Administration Switch| SVI       | 192.168.1.157/28<br>(SM: 255.255.255.240)                                       | 192.168.1.158    |
-| Reception Host       | NIC       | 192.168.1.97/27<br>(SM: 255.255.255.224)<br>2001:db8:acad:a::ff/64             | 192.168.1.126<br>FE80::1 |
-| Operator Host        | NIC       | 192.168.1.98/27<br>(SM: 255.255.255.224)<br>2001:db8:acad:a::15/64             | 192.168.1.126<br>FE80::1 |
-| IT Host              | NIC       | 192.168.1.145/28<br>(SM: 255.255.255.240)<br>2001:db8:acad:b::ff/64            | 192.168.1.158<br>FE80::1 |
-| Server               | NIC       | 192.168.1.146/28<br>(SM: 255.255.255.240)<br>2001:db8:acad:b::15/64            | 192.168.1.158<br>FE80::1 |
+<table>
+  <thead>
+    <tr>
+      <th>Device</th>
+      <th>Interface</th>
+      <th>IP Address/Mask</th>
+      <th>Default Gateway</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">Town Hall</td>
+      <td>G0/0</td>
+      <td>
+        <font color="red">192.168.1.126/27</font><br>
+        <font color="red">(SM: 255.255.255.224)</font><br>
+        2001:db8:acad:a::1/64<br>
+        fe80::1
+      </td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>G0/1</td>
+      <td>
+        <font color="red">192.168.1.158/28</font><br>
+        <font color="red">(SM: 255.255.255.240)</font><br>
+        2001:db8:acad:b::1/64<br>
+        fe80::1
+      </td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>Administration Switch</td>
+      <td>SVI</td>
+      <td>
+        <font color="red">192.168.1.157/28</font><br>
+        <font color="red">(SM: 255.255.255.240)</font>
+      </td>
+      <td><font color="red">192.168.1.158</font></td>
+    </tr>
+    <tr>
+      <td>Reception Host</td>
+      <td>NIC</td>
+      <td>
+        <font color="red">192.168.1.97/27</font><br>
+        <font color="red">(SM: 255.255.255.224)</font><br>
+        2001:db8:acad:a::ff/64
+      </td>
+      <td>
+        <font color="red">192.168.1.126</font><br>
+        <font color="red">FE80::1</font>
+      </td>
+    </tr>
+    <tr>
+      <td>Operator Host</td>
+      <td>NIC</td>
+      <td>
+        <font color="red">192.168.1.98/27</font><br>
+        <font color="red">(SM: 255.255.255.224)</font><br>
+        2001:db8:acad:a::15/64
+      </td>
+      <td>
+        <font color="red">192.168.1.126</font><br>
+        <font color="red">FE80::1</font>
+      </td>
+    </tr>
+    <tr>
+      <td>IT Host</td>
+      <td>NIC</td>
+      <td>
+        <font color="red">192.168.1.145/28</font><br>
+        <font color="red">(SM: 255.255.255.240)</font><br>
+        2001:db8:acad:b::ff/64
+      </td>
+      <td>
+        <font color="red">192.168.1.158</font><br>
+        <font color="red">FE80::1</font>
+      </td>
+    </tr>
+    <tr>
+      <td>Server</td>
+      <td>NIC</td>
+      <td>
+        <font color="red">192.168.1.146/28</font><br>
+        <font color="red">(SM: 255.255.255.240)</font><br>
+        2001:db8:acad:b::15/64
+      </td>
+      <td>
+        <font color="red">192.168.1.158</font><br>
+        <font color="red">FE80::1</font>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
