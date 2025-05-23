@@ -18,6 +18,7 @@
 |PC-A|Last host address in LAN 1 subnet|**192.168.10.126/25**|
 |PC-B|Last host address in LAN 2 subnet|**192.168.10.190/25**|
 
+# Parts 3 & 4: Basic Device and Security Configurations
 ## 1. Configuration for Router R1
 - Using line console to connect PC-A and Router
 - Click to **PC-A** --> **Terminal** app --> click **OK**
@@ -27,3 +28,8 @@
 - Using line console to connect PC-B and Switch
 - To show Console port on Switch, **Right click** Switch --> **Inspect Rear** --> **Console port**
 - Use the configuration script S1_config.txt as guide to configure the Switch S1
+
+# Part 5: Configure the Hosts and Verify Connectivity
+On PCs, go to **Desktop** tab --> **IP Configuration** menu
+
+
