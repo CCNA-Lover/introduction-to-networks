@@ -12,11 +12,11 @@
 |Network Address|192.168.10.0/24|||
 |LAN 1 subnet host requirements|100|**192.168.10.0/25**|**255.255.255.128**|
 |LAN 2 subnet host requirements|50|**192.168.10.128/26**|**255.255.255.192**|
-|R1 G0/0/1|First host address in LAN 1 subnet|**192.168.10.1/25**|**255.255.255.128**|
-|R1 G0/0/0|First host address in LAN 2 subnet|**192.168.10.129**||
-|S1 SVI|Second host address in LAN 1 subnet|**192.168.10.2**||
-|PC-A|Last host address in LAN 1 subnet|**192.168.10.126**||
-|PC-B|Last host address in LAN 2 subnet|**192.168.10.190**||
+|R1 G0/0/1|First host address in LAN 1 subnet|**192.168.10.1**|**255.255.255.128**|
+|R1 G0/0/0|First host address in LAN 2 subnet|**192.168.10.129**|**255.255.255.192**|
+|S1 SVI|Second host address in LAN 1 subnet|**192.168.10.2**|**255.255.255.128**|
+|PC-A|Last host address in LAN 1 subnet|**192.168.10.126**|**255.255.255.128**|
+|PC-B|Last host address in LAN 2 subnet|**192.168.10.190**|**255.255.255.192**|
 
 # Parts 3 & 4: Basic Device and Security Configurations
 ## 1. Configuration for Router R1
