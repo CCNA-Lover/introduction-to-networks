@@ -34,7 +34,7 @@ Given **n** the number of host bits on a network and **N** the number of **usabl
 **Explanation:**<br>
 192.168.200.139 is a class **C** address with the original prefix of **/24**.<br>
 Decimal number in the **fourth octet** of the new subnet mask is **224**.<br>
-224 = 128 + 64 + 32 = 2<sup>7</sup> + 2<sup>6</sup> + 2<sup>5</sup> --> new prefix is **/27** since **3 bits were borrowed** (7th, 6th and 5th) from the host portion **to the network portion**.<br>
+`224 = 128 + 64 + 32 = 2<sup>7</sup> + 2<sup>6</sup> + 2<sup>5</sup>` --> new prefix is **/27** since **3 bits were borrowed** (7th, 6th and 5th) from the host portion **to the network portion**.<br>
 Every bit is dual (i.e. has two possible values: *0* or *1*) so there are **2<sup>3</sup> = 8** subnets created<br>
 With 5 remaining bits for the host portion, there are **2<sup>5</sup> = 32** addresses, but only **30** are avilable for hosts.
 
