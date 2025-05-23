@@ -22,12 +22,12 @@
 ## 1. Configuration for Router R1
 - Using **line console** to connect PC-A and Router
 - Click to **PC-A** --> **Terminal** app --> click **OK**
-- Use the configuration script **R1_config.txt** as guide to configure the Router R1
+- Use the configuration script [R1_config.txt](R1_config.txt) as guide to configure the Router R1
 
 ## 2. Configuration for Switch S1
 - Using **line console** to connect PC-B and Switch
 - To show Console port on Switch, **Right click** Switch --> **Inspect Rear** --> **Console port**
-- Use the configuration script [**S1_config.txt**](S1_config.txt) as guide to configure the Switch S1
+- Use the configuration script [S1_config.txt](S1_config.txt) as guide to configure the Switch S1
 
 # Part 5: Configure the Hosts and Verify Connectivity
 On PCs, go to **Desktop** tab --> **IP Configuration** menu
