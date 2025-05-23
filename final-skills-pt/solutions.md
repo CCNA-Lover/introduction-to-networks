@@ -31,6 +31,8 @@
 
 # Part 5: Configure the Hosts and Verify Connectivity
 On PCs, go to **Desktop** tab --> **IP Configuration** menu
+![image](https://github.com/user-attachments/assets/dee518b4-5086-4c19-acb1-b11d2f64eac3)
+![image](https://github.com/user-attachments/assets/032d4520-d465-479e-b761-df3479436bd1)
 
 |Hosts|IPv4 Address|Subnet Mask|IPv4 Default Gateway|
 |:---:|:---:|:---:|:---:|
