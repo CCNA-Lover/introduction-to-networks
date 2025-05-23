@@ -32,6 +32,11 @@
 # Part 5: Configure the Hosts and Verify Connectivity
 On PCs, go to **Desktop** tab --> **IP Configuration** menu
 
+|Hosts|IPv4 Address|Subnet Mask|IPv4 Default Gateway|
+|:---:|:---:|:---:|:---:|
+|PC-A|**192.168.10.126**|**255.255.255.128**|**192.168.10.1**|
+|PC-B|**192.168.10.190**|**255.255.255.192**|**192.168.10.129**|
+
 
 
 
