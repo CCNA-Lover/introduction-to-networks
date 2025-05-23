@@ -1,13 +1,12 @@
 # Step 1: Determine the IP Addressing Scheme.
 
-|Device|Interface|IPv4 Address|IPv6 Address|Subnet Mask|IPv4 Default Gateway|
-|:---:|:---:|:---:|:---:|:---:||
-|Town Hall	||**192.168.10.126**|**255.255.255.128**|**192.168.10.1**|
-|PC-B||**192.168.10.190**|**255.255.255.192**|**192.168.10.129**|
-|PC-B||**192.168.10.190**|**255.255.255.192**|**192.168.10.129**|
-|PC-B||**192.168.10.190**|**255.255.255.192**|**192.168.10.129**|
-|Administration Switch|SVI|**192.168.1.157**|**2001:DB8:ACAD:A::FF/64**|**255.255.255.240**|**192.168.1.158**|
-|Recption Host|NIC|**192.168.1.97**|**2001:DB8:ACAD:A::FF/64**|**255.255.255.224**|**192.168.10.126**|
-|Operator Host|NIC|**192.168.1.98**|**2001:DB8:ACAD:A::15/64**|**255.255.255.224**|**192.168.10.12**|
-|IT Host|NIC|**192.168.1.145**|**2001:DB8:ACAD:B::FF/64**|**255.255.255.240**|**192.168.10.129**|
-|Server|NIC|**192.168.1.146**|**2001:DB8:ACAD:B::15/64**|**255.255.255.240**||
+| Device               | Interface | IP Address/Mask                                                                 | Default Gateway |
+|----------------------|-----------|----------------------------------------------------------------------------------|------------------|
+| Town Hall            | G0/0      | <font color="red">192.168.1.126/27</font><br><font color="red">(SM: 255.255.255.224)</font><br>2001:db8:acad:a::1/64<br>fe80::1   | N/A              |
+|                      | G0/1      | <font color="red">192.168.1.158/28</font><br><font color="red">(SM: 255.255.255.240)</font><br>2001:db8:acad:b::1/64<br>fe80::1   | N/A              |
+| Administration Switch| SVI       | <font color="red">192.168.1.157/28</font><br><font color="red">(SM: 255.255.255.240)</font>                                       | <font color="red">192.168.1.158</font>    |
+| Reception Host       | NIC       | <font color="red">192.168.1.97/27</font><br><font color="red">(SM: 255.255.255.224)</font><br>2001:db8:acad:a::ff/64             | <font color="red">192.168.1.126</font><br><font color="red">FE80::1</font> |
+| Operator Host        | NIC       | <font color="red">192.168.1.98/27</font><br><font color="red">(SM: 255.255.255.224)</font><br>2001:db8:acad:a::15/64             | <font color="red">192.168.1.126</font><br><font color="red">FE80::1</font> |
+| IT Host              | NIC       | <font color="red">192.168.1.145/28</font><br><font color="red">(SM: 255.255.255.240)</font><br>2001:db8:acad:b::ff/64            | <font color="red">192.168.1.158</font><br><font color="red">FE80::1</font> |
+| Server               | NIC       | <font color="red">192.168.1.146/28</font><br><font color="red">(SM: 255.255.255.240)</font><br>2001:db8:acad:b::15/64            | <font color="red">192.168.1.158</font><br><font color="red">FE80::1</font> |
+
