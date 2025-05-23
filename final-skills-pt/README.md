@@ -11,9 +11,9 @@ The addressing table to be used in the tasks is as follows:
 
 |Item|Requirements|
 |:---:|:---:|
-|Network Address|192.168.10.0/24|
-|LAN 1 subnet host requirements|100|
-|LAN 2 subnet host requirements|50|
+|Network Address|**192.168.10.0/24**|
+|LAN 1 subnet host requirements|**100**|
+|LAN 2 subnet host requirements|**50**|
 |R1 G0/0/1|First host address in LAN 1 subnet|
 |R1 G0/0/0|First host address in LAN 2 subnet|
 |S1 SVI|Second host address in LAN 1 subnet|
