@@ -10,6 +10,19 @@ f. Assign the last network host address (the highest) in the **Administration LA
 g. Assign the second to the last address (the second highest) in this subnet to the VLAN 1 interface of the **Administration Switch**.<br>
 h. Configure addresses on the hosts using any of the remaining addresses in their respective subnets.<br>
 
+## Addressing Table
+*Link-local* address of both interfaces of the Town Hall Router is **FE80::1**.
+
+|Device|IPv4 Address|Subnet Mask|IPv6 Address|Default Gateway|
+|:---:|:---:|:---:|:---:|:---:|
+|TH G0/0|||2001:DB8:ACAD:A::1/64||
+|TH G0/1|||2001:DB8:ACAD:B::1/64||
+|Administration Switch SVI|||||
+|Receptio Host|||2001:DB8:ACAD:A::FF/64||
+|Operator Host|||2001:DB8:ACAD:A::15/64||
+|IT Host|||2001:DB8:ACAD:B::FF/64||
+|Server|||2001:DB8:ACAD:B::15/64||
+
 # Step 2: Configure Host Addressing
 a. Use the IPv4 addressing from Step 1 and the IPv6 addressing values provided in the Addressing Table to configure all host PCs with the correct addressing.<br>
 b. Use the router interface link-local address as the IPv6 default gateways on the hosts.<br>
