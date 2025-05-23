@@ -21,8 +21,8 @@ Record your subnet assignments according to the following requirements.
 
 - LAN 1 is hosted on **R1 G0/0/1**
 - LAN 2 is hosted on **R1 G0/0/0**
-3) Assign the last IPv4 address of each subnet to the PC NIC.
-4) Assign the second IPv4 address of LAN 1 to **S1** SVI.
+2) Assign the last IPv4 address of each subnet to the PC NIC.
+3) Assign the second IPv4 address of LAN 1 to **S1** SVI.
 
 # Part 3: Configure Basic Device Settings
 Network devices must be configured over a direct console connection. Connectivity between the hosts should be established.
