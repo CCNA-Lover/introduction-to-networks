@@ -1,6 +1,6 @@
 # Step 1: Determine the IP Addressing Scheme.
 
-Bold entries are data that were missing in the Addressing Table from [Step 1](tasks.md).<br>
+**Bold** entries are data that were missing in the Addressing Table from [Step 1](tasks.md).<br>
 *Link-local* address of both interfaces of the Town Hall Router is **FE80::1**. This is also the default gateway for all host (PS: A server is also a host.)
 
 |Device|IPv4 Address|Subnet Mask|IPv6 Address|Default Gateway|
