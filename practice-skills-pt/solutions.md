@@ -1,7 +1,7 @@
 # Step 1: Determine the IP Addressing Scheme.
 
 Bold entries are data that were missing in the Addressing Table from [Step 1](tasks.md).<br>
-*Link-local* address of both interfaces of the Town Hall Router is **FE80::1**. This is also the default gateway for all hosts and the server.
+*Link-local* address of both interfaces of the Town Hall Router is **FE80::1**. This is also the default gateway for all host (PS: A server is also a host.)
 
 |Device|IPv4 Address|Subnet Mask|IPv6 Address|Default Gateway|
 |:---:|:---:|:---:|:---:|:---:|
@@ -14,6 +14,21 @@ Bold entries are data that were missing in the Addressing Table from [Step 1](ta
 |Server|**192.168.1.146**|**255.255.255.240**|2001:DB8:ACAD:B::15/64|**192.168.1.158**|
 
 # Step 2: Configure Host Addressing
+## Reception Host
+
+![image](https://github.com/user-attachments/assets/5165acf8-801d-4b92-b213-269b0e93ef86)
+
+## Operator Host
+
+![image](https://github.com/user-attachments/assets/e09f7a53-34a9-4978-8e98-3c22123dbc6a)
+
+## IT Host
+
+![image](https://github.com/user-attachments/assets/bf2addd4-abb6-4da2-8ad2-fe92e904302f)
+
+## Server
+
+![image](https://github.com/user-attachments/assets/5d905496-4c3a-40fa-bd82-ca1a47692517)
 
 # Steps 3 & 4: Router & Switch Configurations
 
