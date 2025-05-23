@@ -1,4 +1,4 @@
-**Recall:**<br>
+## IPv4 Classes
 |Class|Subnet Mask|Prefix|Address Range|Additional notes|
 |:---|:---|:---|:---|:---|
 |A|255.0.0.0|/8|0.0.0.0 - 127.255.255.255|127.0.0.0 - 127.0.255.255 for loopback<br>10.0.0.0 - 10.255.255.255 private address|
@@ -6,6 +6,10 @@
 |C|255.255.255.0|/24|192.0.0.0 - 223.255.255.255||
 |D|-|-|224.0.0.0 - 240.255.255.255|Experimental|
 |E|-|-|240.0.0.0 - 255.255.255.255|Reserved|
+
+## Rule to determine the number of hosts
+Given **n** the number of host bits on a network and **N** the number of **usable host addresses**, then **N = 2<sup>n</sup> - 2**.<br>
+**Note**: The first and last addresses are reserved for network and broadcast respectively.
 
 ## Problem 1:
 ### Given:
@@ -30,8 +34,9 @@
 **Explanation:**<br>
 192.168.200.139 is a class **C** address with the original prefix of **/24**.<br>
 Decimal number in the **fourth octet** of the new subnet mask is **224**.<br>
-224 = 128 + 64 + 32 = 2<sup>7</sup> + 2^6 + 2^5), so the new prefix is **/27**, since **3 bits were borrowed**(7th, 6th and 5th) from the host portion to create new subnets.<br>
-Every bit is dual (i.e. has two possible values: *0* or *1*) so there are 2^3 = 8 subnets created
+224 = 128 + 64 + 32 = 2<sup>7</sup> + 2<sup>6</sup> + 2<sup>5</sup> --> new prefix is **/27** since **3 bits were borrowed** (7th, 6th and 5th) from the host portion **to the network portion**.<br>
+Every bit is dual (i.e. has two possible values: *0* or *1*) so there are **2<sup>3</sup> = 8** subnets created<br>
+With 5 remaining bits for the host portion, there are **2<sup>5</sup> = 32** addresses, but only **30** are avilable for hosts.
 
 ## Problem 2:
 ### Given:
