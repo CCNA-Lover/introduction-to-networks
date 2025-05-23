@@ -13,6 +13,10 @@ Bold entries are data that were missing in the Addressing Table from [Step 1](ta
 |IT Host|**192.168.1.145**|**255.255.255.240**|2001:DB8:ACAD:B::FF/64|**192.168.1.158**|
 |Server|**192.168.1.146**|**255.255.255.240**|2001:DB8:ACAD:B::15/64|**192.168.1.158**|
 
+# Step 2: Configure Host Addressing
+
+# Steps 3 & 4: 
+
 
 
 
