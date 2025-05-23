@@ -29,7 +29,8 @@
 
 **Explanation:**<br>
 192.168.200.139 is a class **C** address with the original prefix of **/24**.<br>
-The decimal number in the fourth octet of the new subnet mask is 224(= 128 + 64 + 32 = 2^7 + 2^6 + 2^5), so the new prefix is **/27**, since **3 bits were borrowed**(7th, 6th and 5th) from the host portion to create new subnets.<br>
+Decimal number in the **fourth octet** of the new subnet mask is **224**.<br>
+224 = 128 + 64 + 32 = 2<sup>7</sup> + 2^6 + 2^5), so the new prefix is **/27**, since **3 bits were borrowed**(7th, 6th and 5th) from the host portion to create new subnets.<br>
 Every bit is dual (i.e. has two possible values: *0* or *1*) so there are 2^3 = 8 subnets created
 
 ## Problem 2:
