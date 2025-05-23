@@ -15,7 +15,7 @@ Work with the following information:<br>
 - Required number of hosts in IPv4 LAN 1: **100**
 - Required number of hosts in IPv4 LAN 2: **50**<br>
 
-Record your subnet assignments according to the following requirements.
+**Record your subnet assignments according to the following requirements.**
 
 1) Assign the first IPv4 address of each subnet to a router interface
 
@@ -39,6 +39,7 @@ a. Configure **R1** G0/0/0 and G0/0/1 interfaces using the addressing from the p
 
 - Interface description
 - IPv4 address / subnet mask<br>
+
 b. Configure the **S1** VLAN 1 SVI interface using the addressing from the previous part of this assessment:
 
 - Interface description
@@ -47,9 +48,9 @@ b. Configure the **S1** VLAN 1 SVI interface using the addressing from the previ
 
 # Part 4: Configure Security Settings on R1 and S1
 ## Step 1: Configure enhanced password security
-a. Configure **DontTellAnyone** as the encrypted privileged EXEC password
-b. Encrypt all plaintext passwords
-c. Set minimum password length to **10** on **R1**.
+a. Configure **DontTellAnyone** as the encrypted privileged EXEC password<br>
+b. Encrypt all plaintext passwords<br>
+c. Set minimum password length to **10** on **R1**.<br>
 
 ## Step 2: Configure SSH on R1 and S1
 a. Configure **netsec.com** as the domain name<br>
