@@ -7,16 +7,16 @@
 
 # Part 2: Develop an IP Addressing Scheme
 
-|Item|Requirements|IPv4 Address|
-|:---:|:---:|:---:|
-|Network Address|192.168.10.0/24||
-|LAN 1 subnet host requirements|100|**192.168.10.0/25**|
-|LAN 2 subnet host requirements|50|**192.168.10.128/26**|
-|R1 G0/0/1|First host address in LAN 1 subnet|**192.168.10.1/25**|
-|R1 G0/0/0|First host address in LAN 2 subnet|**192.168.10.129/25**|
-|S1 SVI|Second host address in LAN 1 subnet|**192.168.10.2/25**|
-|PC-A|Last host address in LAN 1 subnet|**192.168.10.126/25**|
-|PC-B|Last host address in LAN 2 subnet|**192.168.10.190/25**|
+|Item|Requirements|IPv4 Address|Subnet Mask|
+|:---:|:---:|:---:|:---:|
+|Network Address|192.168.10.0/24|||
+|LAN 1 subnet host requirements|100|**192.168.10.0/25**|**255.255.255.128**|
+|LAN 2 subnet host requirements|50|**192.168.10.128/26**|**255.255.255.192**|
+|R1 G0/0/1|First host address in LAN 1 subnet|**192.168.10.1/25**|**255.255.255.128**|
+|R1 G0/0/0|First host address in LAN 2 subnet|**192.168.10.129/25**||
+|S1 SVI|Second host address in LAN 1 subnet|**192.168.10.2/25**||
+|PC-A|Last host address in LAN 1 subnet|**192.168.10.126/25**||
+|PC-B|Last host address in LAN 2 subnet|**192.168.10.190/25**||
 
 # Parts 3 & 4: Basic Device and Security Configurations
 ## 1. Configuration for Router R1
