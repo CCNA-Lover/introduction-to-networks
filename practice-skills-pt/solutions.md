@@ -15,7 +15,18 @@ Bold entries are data that were missing in the Addressing Table from [Step 1](ta
 
 # Step 2: Configure Host Addressing
 
-# Steps 3 & 4: 
+# Steps 3 & 4: Router & Switch Configurations
+
+## 1. Configuration for Town Hall Router
+- Use **line console** to connect **Reception Host** and **Town Hall** router
+- Click to **Reception Host** --> **Desktop Tab** --> **Terminal** app --> click **OK**
+- Use the configuration script **Town_Hall_router_config.txt** as guide to configure the Town Hall Router
+
+## 2. Configuration for Administration Switch
+- Using **line console** to connect **IT Host** and **Administration Switch**
+- Click to **IT Host** --> **Desktop Tab** --> **Terminal** app --> click **OK**
+- Use the configuration script **Administration_Switch_config.txt** as guide to configure the Administration Switch
+
 
 
 
