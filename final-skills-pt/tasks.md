@@ -14,6 +14,7 @@ Work with the following information:<br>
 - IPv4 Network: **192.168.10.0/24**
 - Required number of hosts in IPv4 LAN 1: **100**
 - Required number of hosts in IPv4 LAN 2: **50**<br>
+
 Record your subnet assignments according to the following requirements.
 
 1) Assign the first IPv4 address of each subnet to a router interface
