@@ -7,7 +7,7 @@ In this activity, you will practice configuring IPv6 addresses on a router, serv
 - Test and Verify Network Connectivity
 # Addressing Table
 <body>
-    <div class="container">
+    <div>
         <table>
             <thead>
                 <tr>
@@ -50,7 +50,7 @@ In this activity, you will practice configuring IPv6 addresses on a router, serv
                     <td><span>fe80::1</span></td>
                 </tr>
                 <tr>
-                    <td class="device-cell">Billing</td>
+                    <td>Billing</td>
                     <td>NIC</td>
                     <td><span>2001:db8:1:1::3/64</span></td>
                     <td><span>fe80::1</span></td>
