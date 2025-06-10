@@ -3,8 +3,11 @@ a. IP Configuration for PCA
 ![image](https://github.com/user-attachments/assets/696ca0e6-7881-485d-8a6e-78b218f0677c)
 
 b. Console into RTA from the Terminal on PCA.<br>
-Choose the blue cable (second from the left) in the bottom toolbar and connect one end to RS32 (on PCA) and the othet end on the console port of the router RTA.
+Choose the blue cable (second from the left) in the bottom toolbar.
 ![image](https://github.com/user-attachments/assets/b8eebbd4-af9d-47d0-8dab-61d1d149004b)
+
+Connect one end to RS32 (on PCA) and the othet end on the console port of the router RTA.
+![image](https://github.com/user-attachments/assets/308bf017-90cd-4179-952d-8a41fdcf98c3)
 
 
 Refer to the commands in the [RTA_sec_config.txt](./RTA_sec_config.txt) to execute Steps c through o.<br>
