@@ -9,7 +9,7 @@ The network administrator has asked you to prepare **RTA** and **SW1** for deplo
                 <tr>
                     <th>Device</th>
                     <th>Interface</th>
-                    <th>IP Address/Prefix</th>
+                    <th>IP Address</th>
                     <th>Subnet Mask</th>
                     <th>Default Gateway</th>
                 </tr>
