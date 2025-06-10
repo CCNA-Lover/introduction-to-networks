@@ -6,19 +6,7 @@ In this activity, you will practice configuring IPv6 addresses on a router, serv
 - Configure IPv6 Addressing on Clients
 - Test and Verify Network Connectivity
 # Addressing Table
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IPv6 Network Configuration</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
-            margin: 20px;
-            background-color: #f6f8fa;
-        }
-</head>
+
 <body>
     <div class="container">
         <table>
