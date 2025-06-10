@@ -17,6 +17,7 @@ Refer to the commands in the [R1_ipv6_config.txt](R1_ipv6_config.txt) to execute
 ## Step 1: Sales and Billing Clients
 **Sales**
 ![image](https://github.com/user-attachments/assets/2fb41b59-d449-45b2-aaab-b50ad83d1692)
+
 **Billing**
 ![image](https://github.com/user-attachments/assets/4b410ac7-d59a-40d7-b88e-f2500ad09575)
 
