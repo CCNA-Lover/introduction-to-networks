@@ -18,58 +18,6 @@ In this activity, you will practice configuring IPv6 addresses on a router, serv
             margin: 20px;
             background-color: #f6f8fa;
         }
-        
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: white;
-            border-radius: 6px;
-            border: 1px solid #d0d7de;
-            overflow: hidden;
-        }
-        
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 14px;
-        }
-        
-        th {
-            background-color: #f6f8fa;
-            border: 1px solid #d0d7de;
-            padding: 8px 12px;
-            text-align: left;
-            font-weight: 600;
-            color: #24292f;
-        }
-        
-        td {
-            border: 1px solid #d0d7de;
-            padding: 8px 12px;
-            color: #24292f;
-        }
-        
-        tr:nth-child(even) {
-            background-color: #f6f8fa;
-        }
-        
-        tr:hover {
-            background-color: #f1f8ff;
-        }
-        
-        .device-cell {
-            font-weight: 600;
-            vertical-align: top;
-        }
-        
-        .code {
-            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
-            font-size: 12px;
-            background-color: rgba(175, 184, 193, 0.2);
-            padding: 2px 4px;
-            border-radius: 3px;
-        }
-    </style>
 </head>
 <body>
     <div class="container">
