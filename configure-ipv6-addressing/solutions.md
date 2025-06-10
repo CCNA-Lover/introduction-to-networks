@@ -39,4 +39,5 @@ Make sure you can access the server web pages and ping the ISP from any other cl
 ![image](https://github.com/user-attachments/assets/fd56cf60-73cb-456f-b75f-a0ac2172c01a)
 
 ## Step 1: Ping the ISP.
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/d602afd9-3cfb-4a8f-b9da-a1abb3624244)
+
