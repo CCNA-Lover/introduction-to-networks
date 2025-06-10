@@ -55,7 +55,7 @@ l. Configure all VTY lines for SSH access and use the local user profiles for au
 `SW1(config)# line vty 0 15`<br>
 `SW1(config-line)# transport input ssh`<br>
 `SW1(config-line)# login local`<br>
-m. Set the EXEC mode timeout to 6 minutes on the VTY lines.
+m. Set the EXEC mode timeout to 6 minutes on the VTY lines.<br>
 `SW1(config-line)# exec-timeout 6`<br>
 n. Save the configuration to NVRAM.
 
