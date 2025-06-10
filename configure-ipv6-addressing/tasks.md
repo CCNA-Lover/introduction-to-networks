@@ -26,6 +26,6 @@ b. Verify the addressing configured by issuing the following command:<br>
 `R1# show ipv6 interface brief`<br>
 c. If any addresses are incorrect, repeat the steps above as necessary to make any corrections.<br>
 Note: To make a change in addressing with IPv6, you must remove the incorrect address or else both the correct address and incorrect address will remain configured on the interface.<br>
-Example:
+Example:<br>
 `R1(config-if)# no ipv6 address 2001:db8:1:5::1/64`<br>
 d. Save the router configuration to NVRAM.
