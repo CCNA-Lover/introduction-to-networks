@@ -32,7 +32,7 @@ Refer to the commands in the [R1_ipv6_config.txt](R1_ipv6_config.txt) to execute
 **Note**: Snapshots are from the Sales PC.<br>
 Make sure you can access the server web pages and ping the ISP from any other client (Billing, Design, Engineering).
 ## Step 1: Open the server web pages from the clients.
-**Accountiung Server**
+**Accounting Server**
 ![image](https://github.com/user-attachments/assets/740a17a6-b93f-44ee-961b-8d8de5fe9224)
 
 **CAD Server**
