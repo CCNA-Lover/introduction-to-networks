@@ -89,3 +89,5 @@ In this activity, you will practice configuring IPv6 addresses on a router, serv
         </table>
     </div>
 </body>
+
+![image](https://github.com/user-attachments/assets/8e43dd7e-f2b5-467a-9aca-417e705d543c)
