@@ -36,53 +36,53 @@ In this activity, you will practice configuring IPv6 addresses on a router, serv
                     <td>N/A</td>
                 </tr>
                 <tr>
-                    <td><span class="code">S0/0/0</span></td>
+                    <td><span>S0/0/0</span></td>
                     <td>
-                        <span class="code">2001:db8:1:a001::2/64</span><br>
-                        <span class="code">fe80::1</span>
+                        <span>2001:db8:1:a001::2/64</span><br>
+                        <span>fe80::1</span>
                     </td>
                     <td>N/A</td>
                 </tr>
                 <tr>
-                    <td class="device-cell">Sales</td>
+                    <td>Sales</td>
                     <td>NIC</td>
-                    <td><span class="code">2001:db8:1:1::2/64</span></td>
-                    <td><span class="code">fe80::1</span></td>
+                    <td><span>2001:db8:1:1::2/64</span></td>
+                    <td><span>fe80::1</span></td>
                 </tr>
                 <tr>
                     <td class="device-cell">Billing</td>
                     <td>NIC</td>
-                    <td><span class="code">2001:db8:1:1::3/64</span></td>
-                    <td><span class="code">fe80::1</span></td>
+                    <td><span>2001:db8:1:1::3/64</span></td>
+                    <td><span>fe80::1</span></td>
                 </tr>
                 <tr>
-                    <td class="device-cell">Accounting</td>
+                    <td>Accounting</td>
                     <td>NIC</td>
-                    <td><span class="code">2001:db8:1:1::4/64</span></td>
-                    <td><span class="code">fe80::1</span></td>
+                    <td><span>2001:db8:1:1::4/64</span></td>
+                    <td><span>fe80::1</span></td>
                 </tr>
                 <tr>
-                    <td class="device-cell">Design</td>
+                    <td>Design</td>
                     <td>NIC</td>
-                    <td><span class="code">2001:db8:1:2::2/64</span></td>
-                    <td><span class="code">fe80::1</span></td>
+                    <td><span>2001:db8:1:2::2/64</span></td>
+                    <td><span>fe80::1</span></td>
                 </tr>
                 <tr>
-                    <td class="device-cell">Engineering</td>
+                    <td>Engineering</td>
                     <td>NIC</td>
-                    <td><span class="code">2001:db8:1:2::3/64</span></td>
-                    <td><span class="code">fe80::1</span></td>
+                    <td><span>2001:db8:1:2::3/64</span></td>
+                    <td><span>fe80::1</span></td>
                 </tr>
                 <tr>
-                    <td class="device-cell">CAD</td>
+                    <td>CAD</td>
                     <td>NIC</td>
-                    <td><span class="code">2001:db8:1:2::4/64</span></td>
-                    <td><span class="code">fe80::1</span></td>
+                    <td><span>2001:db8:1:2::4/64</span></td>
+                    <td><span>fe80::1</span></td>
                 </tr>
                 <tr>
-                    <td class="device-cell">ISP</td>
-                    <td><span class="code">S0/0/0</span></td>
-                    <td><span class="code">2001:db8:1:a001::1</span></td>
+                    <td>ISP</td>
+                    <td><span>S0/0/0</span></td>
+                    <td><span>2001:db8:1:a001::1</span></td>
                     <td><span>fe80::1</span></td>
                 </tr>
             </tbody>
