@@ -40,3 +40,5 @@ The network administrator has asked you to prepare **RTA** and **SW1** for deplo
         </table>
     </div>
 </body>
+
+![image](https://github.com/user-attachments/assets/60d16e36-9b7c-44ef-8c8f-b1135d516754)
