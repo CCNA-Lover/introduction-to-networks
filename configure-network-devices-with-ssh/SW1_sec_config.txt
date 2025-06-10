@@ -1,0 +1,33 @@
+### Steps b-d ###
+enable
+config terminal
+hostname SW1
+interface vlan 1
+ip address 172.16.1.2 255.255.255.0
+no shutdown
+exit
+ip default-gateway 172.16.1.1
+
+### Step e ###
+interface range F0/2-24, G0/2
+shutdown
+exit
+
+### Steps f and g ###
+service password-encryption 
+enable secret class
+
+## Steps h-k ###
+no ip domain-lookup
+ip domain-name CCNA.com
+crypto key generate rsa
+1024
+username admin_switch secret p@ssword
+
+## Steps l-n  ###
+line vty 0 15
+transport input ssh 
+login local
+exec-timeout 6
+end
+copy running-config startup-config

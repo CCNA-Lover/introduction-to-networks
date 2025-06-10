@@ -1,0 +1,29 @@
+### Steps c and d ###
+enable
+config terminal
+hostname RTA
+interface g0/0
+ip address 172.16.1.1 255.255.255.0
+no shutdown
+exit
+
+### Steps e-g ###
+service password-encryption 
+security password min-length 10
+enable secret C1sc0!
+
+### Steps h-l ###
+no ip domain-lookup
+ip domain-name CCNA.com
+username developer secret C1sc0!
+crypto key generate rsa
+1024
+login block-for 180 attempts 4 within 120
+
+### Steps m-o ###
+line vty 0 4
+transport input ssh 
+login local
+exec-timeout 6
+end
+copy running-config startup-config
