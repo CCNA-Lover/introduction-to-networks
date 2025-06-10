@@ -6,7 +6,6 @@ In this activity, you will practice configuring IPv6 addresses on a router, serv
 - Configure IPv6 Addressing on Clients
 - Test and Verify Network Connectivity
 # Addressing Table
-
 <body>
     <div class="container">
         <table>
@@ -20,19 +19,19 @@ In this activity, you will practice configuring IPv6 addresses on a router, serv
             </thead>
             <tbody>
                 <tr>
-                    <td rowspan="3" class="device-cell">R1</td>
-                    <td><span class="code">G0/0</span></td>
+                    <td rowspan="3">R1</td>
+                    <td><span>G0/0</span></td>
                     <td>
-                        <span class="code">2001:db8:1:1::1/64</span><br>
-                        <span class="code">fe80::1</span>
+                        <span>2001:db8:1:1::1/64</span><br>
+                        <span>fe80::1</span>
                     </td>
                     <td>N/A</td>
                 </tr>
                 <tr>
-                    <td><span class="code">G0/1</span></td>
+                    <td><span>G0/1</span></td>
                     <td>
-                        <span class="code">2001:db8:1:2::1/64</span><br>
-                        <span class="code">fe80::1</span>
+                        <span>2001:db8:1:2::1/64</span><br>
+                        <span>fe80::1</span>
                     </td>
                     <td>N/A</td>
                 </tr>
@@ -84,10 +83,9 @@ In this activity, you will practice configuring IPv6 addresses on a router, serv
                     <td class="device-cell">ISP</td>
                     <td><span class="code">S0/0/0</span></td>
                     <td><span class="code">2001:db8:1:a001::1</span></td>
-                    <td><span class="code">fe80::1</span></td>
+                    <td><span>fe80::1</span></td>
                 </tr>
             </tbody>
         </table>
     </div>
 </body>
-</html>
