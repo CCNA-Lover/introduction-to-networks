@@ -1,6 +1,6 @@
 # Instructions
 ## Step 1: Configure Basic Security on the Router
-a. Configure IP addressing on **PCA** according to the [Addressing Table](tasks.md).<br>
+a. Configure IP addressing on **PCA** according to the [Addressing Table](./README.md).<br>
 b. Console into RTA from the Terminal on PCA.<br>
 c. Configure the hostname as **RTA**.<br>
 d. Configure IP addressing on **RTA** and enable the interface.<br>
