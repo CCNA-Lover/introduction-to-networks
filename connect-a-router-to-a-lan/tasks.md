@@ -59,8 +59,8 @@ Save the configuration files on both routers to NVRAM. What command did you use?
 
 ## Step 1: Use verification commands to check your interface configurations.
 a. Use the **show ip interface brief** command on both **R1** and **R2** to quickly verify that the interfaces are configured with the correct IP address and are active.<br>
-How many interfaces on **R1** and **R2** are configured with IP addresses and in the “up” and “up” state?<br>
-What part of the interface configuration is NOT displayed in the command output?<br>
+How many interfaces on **R1** and **R2** are configured with IP addresses and in the “up” and “up” state?<br><br>
+What part of the interface configuration is NOT displayed in the command output?<br><br>
 What commands can you use to verify this part of the configuration?<br><br>
 b. Use the **show ip route** command on both **R1** and **R2** to view the current routing tables and answer the following questions:<br>
 1. How many connected routes (uses the **C** code) do you see on each router?
