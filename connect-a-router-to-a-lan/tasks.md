@@ -11,7 +11,8 @@ c. Enter the command to display the statistics for the Serial 0/0/0 interface on
 questions:<br>
 1. What is the IP address configured on R1?<br>
 2. What is the bandwidth on the Serial 0/0/0 interface?<br><br>
-d. Enter the command to display the statistics for the GigabitEthernet 0/0 interface and answer the following
+
+Enter the command to display the statistics for the GigabitEthernet 0/0 interface and answer the following
 questions:<br>
 1. What is the IP address on R1?<br>
 2. What is the MAC address of the GigabitEthernet 0/0 interface?<br>
