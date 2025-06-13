@@ -9,7 +9,7 @@ b. Which command displays the information about the Serial 0/0/0 interface only?
 c. Enter the command to display the statistics for the Serial 0/0/0 interface on R1 and answer the following
 questions:<br>
 1. What is the IP address configured on R1?<br>
-2. What is the bandwidth on the Serial 0/0/0 interface?<br><br>
+2. What is the bandwidth on the Serial 0/0/0 interface?<br>
 
 d. Enter the command to display the statistics for the GigabitEthernet 0/0 interface and answer the following
 questions:<br>
