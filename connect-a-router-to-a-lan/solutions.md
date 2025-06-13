@@ -14,7 +14,8 @@ questions:<br>
 1. What is the IP address configured on **R1**?<br>
 **209.165.200.225/30**<br>
 2. What is the bandwidth on the Serial 0/0/0 interface?<br>
-**1544 kbits**<br>
+**1544 kbits**<br><br>
+
 *Snapshot of the output*<br><br>
 ![image](https://github.com/user-attachments/assets/3ef14410-5d2c-4432-9066-c7626a0d9a0b)
 
