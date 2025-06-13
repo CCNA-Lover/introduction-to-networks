@@ -21,18 +21,31 @@ questions:<br>
 ![sh_int](https://github.com/user-attachments/assets/2cedb318-43a4-4102-85a7-405a89679b75)
 
 
-d. Enter the command to display the statistics for the GigabitEthernet 0/0 interface and answer the following
+d. Enter the command (`R1#show interfaces g0/0`)to display the statistics for the GigabitEthernet 0/0 interface and answer the following
 questions:<br>
 1. What is the IP address on **R1**?<br>
+**There is no IP address configured on the GigabitEthernet 0/0 interface**<br>
 2. What is the MAC address of the GigabitEthernet 0/0 interface?<br>
-3. What is the bandwidth (BW) of the GigabitEthernet 0/0 interface?
+**000d.bd6c.7d01**<br>
+3. What is the bandwidth (BW) of the GigabitEthernet 0/0 interface?<br>
+**1000000 kbits**<br><br>
+
+*Snapshot of the output*<br>
+*bia means **burnt-in address** - other name for the MAC address attributed by the manufacturer; this address is the physical address and is unchangeable*<br><br>
+
+![int_g0](https://github.com/user-attachments/assets/add14b85-0f91-45ad-a1ee-f100edcb40ab)
+
 
 ## Step 2: Display a summary list of the interfaces on R1.
-a. Which command displays a brief summary of the current interfaces, interface status, and the IP addresses assigned to them?<br><br>
+a. Which command displays a brief summary of the current interfaces, interface status, and the IP addresses assigned to them?<br>
+`R1#show ip interface brief`<br>
 b. Enter the command on each router and answer the following questions:<br>
 1. How many serial interfaces are there on **R1** and **R2**?<br>
+**Each router has 2 serial interfaces**.<br>
 2. How many Ethernet interfaces are there on **R1** and **R2**?<br>
+**R1 has 6 Ethernet interfaces and R2 has 2 Ethernet interfaces**.<br>
 3. Are all the Ethernet interfaces on **R1** the same? If no, explain the difference(s).
+**No, they are not. There are two Gigabit Ethernet interfaces and 4 Fast Ethernet interfaces. Gigabit Ethernet interfaces support speeds of up to 1,000,000,000 bits per seconds (1 Gbps) and Fast Ethernet interfaces support speeds of up to 1,000,000 bits per second (1 Mbps)**.
 
 ## Step 3: Display the routing table on R1.
 a. What command displays the contents of the routing table?<br><br>
