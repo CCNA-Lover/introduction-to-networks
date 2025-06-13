@@ -17,7 +17,8 @@ questions:<br>
 **1544 kbits**<br><br>
 
 *Snapshot of the output*<br><br>
-![image](https://github.com/user-attachments/assets/3ef14410-5d2c-4432-9066-c7626a0d9a0b)
+
+![sh_int](https://github.com/user-attachments/assets/2cedb318-43a4-4102-85a7-405a89679b75)
 
 
 d. Enter the command to display the statistics for the GigabitEthernet 0/0 interface and answer the following
