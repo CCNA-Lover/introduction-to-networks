@@ -73,4 +73,5 @@ b. Use the **show ip route** command on both **R1** and **R2** to view the curre
 You should now be able to ping from any PC to any other PC on the network. In addition, you should be able to ping the active interfaces on the routers. For example, the following tests should be successful: 
 - From the command line on PC1, ping PC4.
 - From the command line on R2, ping PC2.<br>
+
 **Note**: For simplicity in this activity, the switches are not configured. You will not be able to ping them.
