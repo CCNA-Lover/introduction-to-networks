@@ -83,7 +83,8 @@ b. It is good practice to configure a description for each interface to help doc
 `R1(config-if)# description LAN connection to S1`<br>
 c. **R1** should now be able to ping PC1.<br>
 `R1(config-if)# end`<br>
-`R1# ping 192.168.10.10`<br>
+`R1# ping 192.168.10.10`<br><br>
+*Ping successful to 80% - remaining 20% is due to ARP taking time to resolve the corresponding MAC address of the device with the IP address 192.168.10.10*<br><br>
 ![R1_ping_successful](https://github.com/user-attachments/assets/200dc80a-a431-4020-b390-ac69c61617f9)
 
 *[R1_config.txt](R1_config.txt) contains all commands to configure the G0/0 interace from Step a to c*
