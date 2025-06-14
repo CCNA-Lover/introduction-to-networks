@@ -78,20 +78,26 @@ a. Enter the following commands to address and activate the GigabitEthernet 0/0 
 `R1(config)# interface gigabitethernet 0/0`<br>
 `R1(config-if)# ip address 192.168.10.1 255.255.255.0`<br>
 `R1(config-if)# no shutdown`<br>
-*Refer to the [R1_config.txt](R1_config.txt) and enter the configurations in the specified order.*<br>
 **Note**: Refer to the [Addressing Table](README.md) to configure the G0/0 interface with the correct IPv4 address.<br>
 b. It is good practice to configure a description for each interface to help document the network. Configure an interface description that indicates the device to which it is connected.<br>
 `R1(config-if)# description LAN connection to S1`<br>
 c. **R1** should now be able to ping PC1.<br>
 `R1(config-if)# end`<br>
-`R1# ping 192.168.10.10`
+`R1# ping 192.168.10.10`<br>
+![R1_ping_successful](https://github.com/user-attachments/assets/200dc80a-a431-4020-b390-ac69c61617f9)
+
+*[R1_config.txt](R1_config.txt) contains all commands to configure the G0/0 interace from Step a to c*
 
 ## Step 2: Configure the remaining Gigabit Ethernet Interfaces on R1 and R2.
-a. Use the information in the Addressing Table to finish the interface configurations for **R1** and **R2**. For each interface, do the following:<br>
+a. Use the information in the [Addressing Table](README.md) to finish the interface configurations for **R1** and **R2**. For each interface, do the following:<br>
 1. Enter the IP address and activate the interface.
 2. Configure an appropriate description.<br>
-b. Verify interface configurations.
+b. Verify interface configurations.<br>
+Issue the following commands:<br>
+`R1#show ip interface brief`<br>
+`R2#show ip interface brief`<br>
 
+**Note**: Refer to the [R1_full_config.txt](R1_full_config.txt) and [R2_full_config.txt](R2_full_config.txt) for Questions 1 and 2.
 ## Step 3: Back up the configurations to NVRAM.
 Save the configuration files on both routers to NVRAM. What command did you use?
 
