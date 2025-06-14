@@ -1,0 +1,19 @@
+### Authentication ###
+cisco
+enable
+class
+
+### G0/0 config ###
+configure terminal
+interface g0/0
+ip address 192.168.10.1 255.255.255.0
+no shutdown
+description LAN connection to S1
+
+### G0/1 config ###
+interface g0/1
+ip address 192.168.11.1 255.255.255.0
+no shutdown
+description LAN connection to S2
+### Return to privileged EXEC mode ###
+end
