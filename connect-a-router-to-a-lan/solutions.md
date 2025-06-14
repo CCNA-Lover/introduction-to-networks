@@ -96,12 +96,32 @@ a. Use the information in the [Addressing Table](README.md) to finish the interf
 b. Verify interface configurations.<br>
 Issue the following commands:<br>
 `R1#show ip interface brief`<br>
-`R2#show ip interface brief`<br>
+`R2#show ip interface brief`<br><br>
 
+*Interface brief on R1*<br><br>
+![int_br](https://github.com/user-attachments/assets/03496993-51aa-4981-9403-7964c299ab2f)
+
+*Interface brief on R2*<br><br>
+![R2_int_br](https://github.com/user-attachments/assets/b9a04916-f286-4242-9f61-7df97fd268b5)
+
+Alternatively issue the following commands to have a more detailed view of the running-config file. Scroll down to verify interface configurations (IP addresses, descriptions, ...):
+`R1#show run`<br>
+`R2#show run`<br><br>
+
+*Running-config on R1*<br><br>
+![R1_sh_run](https://github.com/user-attachments/assets/a28592e3-5278-42dd-bc2c-8e4558d958d8)
+
+
+*Running-config on R2*<br><br>
+![R2_sh_run](https://github.com/user-attachments/assets/c18e9b24-011d-4649-b921-36a73317040c)
+
+
+*sh ip int br is the short form for show ip interface brief*<br>
 **Note**: Refer to the [R1_full_config.txt](R1_full_config.txt) and [R2_full_config.txt](R2_full_config.txt) for Questions 1 and 2.
 ## Step 3: Back up the configurations to NVRAM.
-Save the configuration files on both routers to NVRAM. What command did you use?
-
+Save the configuration files on both routers to NVRAM. What command did you use?<br>
+**copy run start** (short version of *copy running-config startup-config*).<br>
+Include this command in the configuration of the Gigabit Ethernet interfaces for routers R1 and R2 so that changes can be saved to the NVRAM (*Non Volatile RAM*) and uploaded from the *startup-config file* when the router is booted up.
 
 # Part 3: Verify the Configuration
 
