@@ -87,12 +87,15 @@ c. **R1** should now be able to ping PC1.<br>
 *Ping successfull to 80% - remaining 20% is due to ARP taking time to resolve the corresponding MAC address of the device with the IP address 192.168.10.10*<br><br>
 ![R1_ping_successful](https://github.com/user-attachments/assets/200dc80a-a431-4020-b390-ac69c61617f9)
 
-*[R1_config.txt](R1_config.txt) contains all commands to configure the G0/0 interace from Step a to c*
+*[R1_config.txt](R1_config.txt) contains all commands to configure the G0/0 interface from Step a to c*
 
 ## Step 2: Configure the remaining Gigabit Ethernet Interfaces on R1 and R2.
 a. Use the information in the [Addressing Table](README.md) to finish the interface configurations for **R1** and **R2**. For each interface, do the following:<br>
 1. Enter the IP address and activate the interface.
-2. Configure an appropriate description.<br>
+2. Configure an appropriate description.<br><br>
+
+**Note**: Refer to the [R1_full_config.txt](R1_full_config.txt) and [R2_full_config.txt](R2_full_config.txt) for Questions 1 and 2.<br>
+
 b. Verify interface configurations.<br>
 Issue the following commands:<br>
 `R1#show ip interface brief`<br>
@@ -104,7 +107,7 @@ Issue the following commands:<br>
 *Interface brief on R2*<br><br>
 ![R2_int_br](https://github.com/user-attachments/assets/b9a04916-f286-4242-9f61-7df97fd268b5)
 
-Alternatively issue the following commands to have a more detailed view of the running-config file. Scroll down to verify interface configurations (IP addresses, descriptions, ...):
+Alternatively issue the following commands to have a more detailed view of the running-config file. Scroll down to verify interface configurations (IP addresses, descriptions, ...):<br>
 `R1#show run`<br>
 `R2#show run`<br><br>
 
@@ -116,8 +119,8 @@ Alternatively issue the following commands to have a more detailed view of the r
 ![R2_sh_run](https://github.com/user-attachments/assets/c18e9b24-011d-4649-b921-36a73317040c)
 
 
-*sh ip int br is the short form for show ip interface brief*<br>
-**Note**: Refer to the [R1_full_config.txt](R1_full_config.txt) and [R2_full_config.txt](R2_full_config.txt) for Questions 1 and 2.
+*sh ip int br is the short form for show ip interface brief*
+
 ## Step 3: Back up the configurations to NVRAM.
 Save the configuration files on both routers to NVRAM. What command did you use?<br>
 **copy run start** (short version of *copy running-config startup-config*).<br>
@@ -127,20 +130,31 @@ Include this command in the configuration of the Gigabit Ethernet interfaces for
 
 ## Step 1: Use verification commands to check your interface configurations.
 a. Use the **show ip interface brief** command on both **R1** and **R2** to quickly verify that the interfaces are configured with the correct IP address and are active.<br>
-How many interfaces on **R1** and **R2** are configured with IP addresses and in the “up” and “up” state?<br><br>
-What part of the interface configuration is NOT displayed in the command output?<br><br>
-What commands can you use to verify this part of the configuration?<br><br>
+How many interfaces on **R1** and **R2** are configured with IP addresses and in the “up” and “up” state?<br>
+**3 on each router**<br>
+What part of the interface configuration is NOT displayed in the command output?<br>
+**The subnet mask**<br>
+What commands can you use to verify this part of the configuration?<br>
+**show run, show interfaces, show ip protocols**<br>
 b. Use the **show ip route** command on both **R1** and **R2** to view the current routing tables and answer the following questions:<br>
-1. How many connected routes (uses the **C** code) do you see on each router?
-2. How many OSPF routes (uses the **O** code) do you see on each router?
-3. f the router knows all the routes in the network, then the number of connected routes and dynamically learned routes (OSPF) should equal the total number of LANs and WANs. How many LANs and WANs are in the topology?
-4. Does this number match the number of C and O routes shown in the routing table?<br><br>
+1. How many connected routes (uses the **C** code) do you see on each router?<br>
+**3**<br>
+2. How many OSPF routes (uses the **O** code) do you see on each router?<br>
+**Both R1 and R2 show 2 OSPF routes**<br>
+3. If the router knows all the routes in the network, then the number of connected routes and dynamically learned routes (OSPF) should equal the total number of LANs and WANs. How many LANs and WANs are in the topology?<br>
+**5**<br>
+4. Does this number match the number of C and O routes shown in the routing table?<br>
+**Yes**<br>
 **Note**: If your answer is "no", thn you are missing a required configuration. Review the steps in Part 2.
 
 ## Step 2: Test end-to-end connectivity accross the network.
 You should now be able to ping from any PC to any other PC on the network. In addition, you should be able to ping the active interfaces on the routers. For example, the following tests should be successful: 
-- From the command line on PC1, ping PC4.
-- From the command line on R2, ping PC2.<br>
+- From the command line on PC1, ping PC4.<br><br>
+![PC1_to_PC4](https://github.com/user-attachments/assets/38d29fc8-6711-46cc-9497-ad2b61c709c3)
+
+- From the command line on R2, ping PC2.<br><br>
+![R2_to_Pc2](https://github.com/user-attachments/assets/cc36b4e7-fdf8-4e73-9871-16e3e10ea01c)
+
 
 **Note**: For simplicity in this activity, the switches are not configured. You will not be able to ping them.
 
