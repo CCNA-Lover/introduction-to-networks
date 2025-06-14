@@ -30,29 +30,41 @@ questions:<br>
 3. What is the bandwidth (BW) of the GigabitEthernet 0/0 interface?<br>
 **1000000 kbits**<br><br>
 
-*Snapshot of the output*<br>
-*bia means **burnt-in address** - other name for the MAC address attributed by the manufacturer; this address is the physical address and is unchangeable*<br><br>
+*Snapshot of the output*<br><br>
 
 ![int_g0](https://github.com/user-attachments/assets/add14b85-0f91-45ad-a1ee-f100edcb40ab)
 
+*bia means **burnt-in address** - other name for the MAC address attributed by the manufacturer; this address is the physical address and is unchangeable*
 
 ## Step 2: Display a summary list of the interfaces on R1.
 a. Which command displays a brief summary of the current interfaces, interface status, and the IP addresses assigned to them?<br>
 `R1#show ip interface brief`<br>
-b. Enter the command on each router and answer the following questions:<br>
+b. Enter the command on each router and answer the following questions:<br><br>
+
+*Interface brief on R1*<br><br>
+![ethernet_R1](https://github.com/user-attachments/assets/851d7789-aa81-484b-9ab9-c996deaf0cf0)
+
+*Interface brief on R2*<br><br>
+![ethernet_R2](https://github.com/user-attachments/assets/ec102ff9-7f35-4081-a12b-0c394e0e8d1c)
+
+
 1. How many serial interfaces are there on **R1** and **R2**?<br>
 **Each router has 2 serial interfaces**.<br>
 2. How many Ethernet interfaces are there on **R1** and **R2**?<br>
-**R1 has 6 Ethernet interfaces and R2 has 2 Ethernet interfaces**.<br>
+**R1 has 6 (2 Gigabit and 4 Fast)Ethernet interfaces and R2 has 2 (Gigabit)Ethernet interfaces**.<br>
 3. Are all the Ethernet interfaces on **R1** the same? If no, explain the difference(s).
 **No, they are not. There are two Gigabit Ethernet interfaces and 4 Fast Ethernet interfaces. Gigabit Ethernet interfaces support speeds of up to 1,000,000,000 bits per seconds (1 Gbps) and Fast Ethernet interfaces support speeds of up to 1,000,000 bits per second (1 Mbps)**.
 
 ## Step 3: Display the routing table on R1.
-a. What command displays the contents of the routing table?<br><br>
+a. What command displays the contents of the routing table?<br>
+`R1#show ip route`<br>
 b. Enter the command on **R1** and answer the following questions:<br>
 1. How many connected routes are there (uses the **C** code)?<br>
+**1**<br>
 2. Which route is listed?<br>
+**209.165.200.224/30**<br>
 3. How does a router handle a packet destined for a network that is not listed in the routing table?
+**A router will only send packets to a network listed in the routing table. If a network is not listed, the packet will be dropped.**
 
 
 # Part 2: Configure Router Interfaces
