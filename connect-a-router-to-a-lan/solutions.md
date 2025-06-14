@@ -78,6 +78,8 @@ a. Enter the following commands to address and activate the GigabitEthernet 0/0 
 `R1(config)# interface gigabitethernet 0/0`<br>
 `R1(config-if)# ip address 192.168.10.1 255.255.255.0`<br>
 `R1(config-if)# no shutdown`<br>
+*Refer to the [R1_config.txt](R1_config.txt) and enter the configurations in the specified order.*<br>
+**Note**: Refer to the [Addressing Table](README.md) to configure the G0/0 interface with the correct IPv4 address.<br>
 b. It is good practice to configure a description for each interface to help document the network. Configure an interface description that indicates the device to which it is connected.<br>
 `R1(config-if)# description LAN connection to S1`<br>
 c. **R1** should now be able to ping PC1.<br>
