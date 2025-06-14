@@ -57,13 +57,17 @@ b. Enter the command on each router and answer the following questions:<br><br>
 
 ## Step 3: Display the routing table on R1.
 a. What command displays the contents of the routing table?<br>
-`R1#show ip route`<br>
+`R1#show ip route`<br><br>
+
+*Snapshot of the output*<br><br>
+![directly_connected](https://github.com/user-attachments/assets/0a7d7144-fe33-48e3-afbf-67263d91a8a2)
+
 b. Enter the command on **R1** and answer the following questions:<br>
 1. How many connected routes are there (uses the **C** code)?<br>
 **1**<br>
 2. Which route is listed?<br>
 **209.165.200.224/30**<br>
-3. How does a router handle a packet destined for a network that is not listed in the routing table?
+3. How does a router handle a packet destined for a network that is not listed in the routing table?<br>
 **A router will only send packets to a network listed in the routing table. If a network is not listed, the packet will be dropped.**
 
 
