@@ -34,7 +34,7 @@
                       <td>Internet</td>
                   </tr>
                 <tr>
-                      <td rowspan="3">Router0</td>
+                      <td rowspan="4">Router0</td>
                       <td>Comsole</td>
                       <td>N/A</td>
                       <td>RS232</td>
