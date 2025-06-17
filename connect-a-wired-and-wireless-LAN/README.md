@@ -15,7 +15,8 @@
                 <tr>
                     <td rowspan="2">Cloud</td>
                     <td>Eth6</td>
-                    <td>Coax7</td>
+                    <td>N/A</td>
+                    <td>F0/0</td>
                     <td>
                         <span>N/A</span><br>
                         <span>N/A</span>
