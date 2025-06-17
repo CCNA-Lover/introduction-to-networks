@@ -12,7 +12,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td rowspan="2">R1</td>
+                    <td rowspan="2">Cloud</td>
                     <td>Eth6</td>
                     <td>N/A</td>
                     <td>F0/0</td>
@@ -23,53 +23,58 @@
                     <td>Port0</td>
                 </tr>
                 <tr>
-                      <td rowspan="2">R1</td>
-                      <td>Eth6</td>
+                      <td rowspan="2">Cable Modem</td>
+                      <td>Port0</td>
                       <td>N/A</td>
-                      <td>F0/0</td>
+                      <td>Coax7</td>
                   </tr>
                   <tr>
-                      <td>Coax7</td>
+                      <td>Port1</td>
                       <td>N/A</td>
-                      <td>Port0</td>
+                      <td>Internet</td>
                   </tr>
                 <tr>
                       <td rowspan="3">Router0</td>
-                      <td>Eth6</td>
+                      <td>Comsole</td>
                       <td>N/A</td>
+                      <td>RS232</td>
+                  </tr>
+                  <tr>
                       <td>F0/0</td>
-                  </tr>
-                  <tr>
-                      <td>Coax7</td>
-                      <td>N/A</td>
-                      <td>Port0</td>
-                  </tr>
-                  <tr>
-                      <td>Coax7</td>
-                      <td>N/A</td>
-                      <td>Port0</td>
-                  </tr>
-                  <tr>
-                      <td rowspan="2">R1</td>
+                      <td>192.168.2.1/24</td>
                       <td>Eth6</td>
-                      <td>N/A</td>
-                      <td>F0/0</td>
+                  </tr>
+                  <tr>
+                      <td>F0/1</td>
+                      <td>10.0.0.1/24</td>
+                      <td>F0</td>
+                  </tr>
+                  <tr>
+                      <td>Ser0/0/0</td>
+                      <td>172.31.0.1/24</td>
+                      <td>Ser0/0</td>
+                  </tr>
+                  <tr>
+                      <td rowspan="2">Router1</td>
+                      <td>Ser0/0</td>
+                      <td>172.31.0.2/24</td>
+                      <td>Ser0/0/0</td>
                     </tr>
                   <tr>
-                      <td>Coax7</td>
-                      <td>N/A</td>
-                      <td>Port0</td>
+                      <td>F1/0</td>
+                      <td>172.16.0.1/24</td>
+                      <td>F0/1</td>
                   </tr>
                 <tr>
-                      <td rowspan="2">R1</td>
-                      <td>Eth6</td>
-                      <td>N/A</td>
-                      <td>F0/0</td>
+                      <td rowspan="2">WirelessRouter</td>
+                      <td>Internet</td>
+                      <td>192.168.2.2/24</td>
+                      <td>Port 1</td>
                   </tr>
                   <tr>
-                      <td>Coax7</td>
-                      <td>N/A</td>
-                      <td>Port0</td>
+                      <td>Eth1</td>
+                      <td>192.168.1.1 </td>
+                      <td>F0</td>
                   </tr>
                   <tr>
                     <td>Family PC</td>
