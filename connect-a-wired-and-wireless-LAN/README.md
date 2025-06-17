@@ -13,71 +13,109 @@
             </thead>
             <tbody>
                 <tr>
-                    <td rowspan="3">R1</td>
-                    <td><span>G0/0</span></td>
+                    <td rowspan="2">Cloud</td>
                     <td>
-                        <span>2001:db8:1:1::1/64</span><br>
-                        <span>fe80::1</span>
+                        <span>Eth6</span><br>
+                        <span>Coax7</span>
                     </td>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <td><span>G0/1</span></td>
                     <td>
-                        <span>2001:db8:1:2::1/64</span><br>
-                        <span>fe80::1</span>
+                        <span>N/A</span><br>
+                        <span>N/A</span>
                     </td>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <td><span>S0/0/0</span></td>
                     <td>
-                        <span>2001:db8:1:a001::2/64</span><br>
-                        <span>fe80::1</span>
+                        <span>F0/0</span><br>
+                        <span>Port0</span>
                     </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Cable Modem</td>
+                    <td>
+                        <span>Port0</span><br>
+                        <span>Port1</span>
+                    </td>
+                    <td>
+                        <span>N/A</span><br>
+                        <span>N/A</span>
+                    </td>
+                    <td>
+                        <span>Coax7</span><br>
+                        <span>Internet</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Router0</td>
+                    <td>
+                        <span>Console</span><br>
+                        <span>F0/0</span>
+                        <span>F0/1</span>
+                        <span>Ser0/0/0</span>
+                    </td>
+                    <td>
+                        <span>N/A</span><br>
+                        <span>192.168.2.1/24</span>
+                        <span>10.0.0.1/24</span>
+                        <span>173.31.0.1/24</span>
+                    </td>
+                    <td>
+                        <span>RS232</span><br>
+                        <span>Eth6</span>
+                        <span>F0</span>
+                        <span>Ser0/0</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Router1</td>
+                    <td>
+                        <span>Ser0/0</span><br>
+                        <span>F1/0</span>
+                    </td>
+                    <td>
+                        <span>172.31.0.2/24</span><br>
+                        <span>172.16.0.1/24</span>
+                    </td>
+                    <td>
+                        <span>Ser0/0/0</span><br>
+                        <span>F0/1</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">WirelessRouter</td>
+                    <td>
+                        <span>Internet</span><br>
+                        <span>Eth1</span>
+                    </td>
+                    <td>
+                        <span>192.168.2.2/24</span><br>
+                        <span>192.168.1.1</span>
+                    </td>
+                    <td>
+                        <span>Port1</span><br>
+                        <span>F0</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Family PC</td>
+                    <td>F0</td>
+                    <td>192.168.1.1</td>
+                    <td>Eth1</td>
+                </tr>
+                <tr>
+                    <td>Switch</td>
+                    <td>F0/1</td>
+                    <td>172.16.0.2</td>
+                    <td>F1/0</td>
+                </tr>
+                <tr>
+                    <td>Netacad.pka</td>
+                    <td>F0</td>
+                    <td>10.0.0.254</td>
+                    <td>F0/1</td>
+                </tr>
+                <tr>
+                    <td>Configuration Terminal</td>
+                    <td>RS232</td>
                     <td>N/A</td>
-                </tr>
-                <tr>
-                    <td>Sales</td>
-                    <td>NIC</td>
-                    <td><span>2001:db8:1:1::2/64</span></td>
-                    <td><span>fe80::1</span></td>
-                </tr>
-                <tr>
-                    <td>Billing</td>
-                    <td>NIC</td>
-                    <td><span>2001:db8:1:1::3/64</span></td>
-                    <td><span>fe80::1</span></td>
-                </tr>
-                <tr>
-                    <td>Accounting</td>
-                    <td>NIC</td>
-                    <td><span>2001:db8:1:1::4/64</span></td>
-                    <td><span>fe80::1</span></td>
-                </tr>
-                <tr>
-                    <td>Design</td>
-                    <td>NIC</td>
-                    <td><span>2001:db8:1:2::2/64</span></td>
-                    <td><span>fe80::1</span></td>
-                </tr>
-                <tr>
-                    <td>Engineering</td>
-                    <td>NIC</td>
-                    <td><span>2001:db8:1:2::3/64</span></td>
-                    <td><span>fe80::1</span></td>
-                </tr>
-                <tr>
-                    <td>CAD</td>
-                    <td>NIC</td>
-                    <td><span>2001:db8:1:2::4/64</span></td>
-                    <td><span>fe80::1</span></td>
-                </tr>
-                <tr>
-                    <td>ISP</td>
-                    <td><span>S0/0/0</span></td>
-                    <td><span>2001:db8:1:a001::1</span></td>
-                    <td><span>fe80::1</span></td>
+                    <td>Console</td>
                 </tr>
             </tbody>
         </table>
