@@ -17,16 +17,9 @@
                     <td>Eth6</td>
                     <td>N/A</td>
                     <td>F0/0</td>
-                    <td>
-                        <span>N/A</span><br>
-                        <span>N/A</span>
-                    </td>
-                    <td>
-                        <span>F0/0</span><br>
-                        <span>Port0</span>
-                    </td>
-                </tr>
-                <tr>
+                    <td>Eth6</td>
+                    <td>N/A</td>
+                    <td>F0/0</td>
                     <td rowspan="2">Cable Modem</td>
                     <td>
                         <span>Port0</span><br>
